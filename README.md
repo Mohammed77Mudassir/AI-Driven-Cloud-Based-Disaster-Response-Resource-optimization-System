@@ -11,7 +11,7 @@ A professional enterprise-grade Disaster Response Platform with AI-powered featu
 | Module | Description | Status |
 |--------|-------------|--------|
 | **User Management** | Complete user CRUD, search/filter, role management, activate/deactivate, password reset, activity tracking | ✅ |
-| **Advanced Login** | Remember Me, Demo User buttons, professional auth UI | ✅ |
+| **Advanced Login** | Remember Me,  professional auth UI | ✅ |
 | **Real-Time WebSocket** | Live push for disasters, notifications, drones, locations via WebSocket | ✅ |
 | **Enhanced AI Engine** | Priority score, risk score, confidence %, response/recovery time estimates | ✅ |
 | **Rescue Team Coordination** | Team CRUD, member management, assignment to disasters, status tracking, scheduling | ✅ |
@@ -249,15 +249,6 @@ Frontend starts on `http://localhost:5173`.
 Start backend first, then frontend. The frontend proxies API requests to the backend via Vite.
 
 ---
-
-## Default Login Credentials
-
-| Role  | Username | Password  |
-|-------|----------|-----------|
-| Admin | admin    | admin123  |
-| User  | user     | user123   |
-
-Use the **Demo Login** buttons on the login page for quick access.
 
 ---
 
