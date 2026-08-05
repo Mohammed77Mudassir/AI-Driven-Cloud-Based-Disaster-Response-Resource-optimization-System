@@ -1,0 +1,11 @@
+{
+  "name": "AI-Disaster-Management-System",
+  "description": "AI-Disaster-Management-System is a JavaScript project",
+  "purpose": "A full-stack web application for reporting and managing disaster events in real-time. Built as a final-year engineering project demo.",
+  "architecture": {
+    "language": "JavaScript"
+  },
+  "devWorkflow": {},
+  "constraints": [],
+  "updatedAt": "2026-07-30T11:22:45.071Z"
+}

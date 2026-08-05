@@ -1,0 +1,11 @@
+{
+  "name": "AI-Disaster-Management-System",
+  "description": "AI-Disaster-Management-System is a JavaScript project",
+  "purpose": "A professional enterprise-grade Disaster Response Platform with AI-powered features, real-time WebSocket monitoring, comprehensive resource management, and Material UI command center interface. Designed for Government Emergency Operations Centers ...",
+  "architecture": {
+    "language": "JavaScript"
+  },
+  "devWorkflow": {},
+  "constraints": [],
+  "updatedAt": "2026-08-02T13:59:00.231Z"
+}

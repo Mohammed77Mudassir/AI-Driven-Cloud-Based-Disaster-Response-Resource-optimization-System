@@ -1,0 +1,706 @@
+{"timestamp":"2026-07-30T11:44:24.214Z","type":"task_updated","taskId":"TSK-001","data":{"taskId":"TSK-001","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.223Z","type":"task_updated","taskId":"TSK-001","data":{"taskId":"TSK-001","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.237Z","type":"task_updated","taskId":"TSK-002","data":{"taskId":"TSK-002","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.242Z","type":"task_updated","taskId":"TSK-002","data":{"taskId":"TSK-002","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.258Z","type":"task_updated","taskId":"TSK-003","data":{"taskId":"TSK-003","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.263Z","type":"task_updated","taskId":"TSK-003","data":{"taskId":"TSK-003","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.276Z","type":"task_updated","taskId":"TSK-004","data":{"taskId":"TSK-004","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.280Z","type":"task_updated","taskId":"TSK-004","data":{"taskId":"TSK-004","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.294Z","type":"task_updated","taskId":"TSK-005","data":{"taskId":"TSK-005","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.299Z","type":"task_updated","taskId":"TSK-005","data":{"taskId":"TSK-005","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.321Z","type":"task_updated","taskId":"TSK-006","data":{"taskId":"TSK-006","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.327Z","type":"task_updated","taskId":"TSK-006","data":{"taskId":"TSK-006","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.339Z","type":"task_updated","taskId":"TSK-007","data":{"taskId":"TSK-007","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.343Z","type":"task_updated","taskId":"TSK-007","data":{"taskId":"TSK-007","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.357Z","type":"task_updated","taskId":"TSK-008","data":{"taskId":"TSK-008","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.363Z","type":"task_updated","taskId":"TSK-008","data":{"taskId":"TSK-008","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.376Z","type":"task_updated","taskId":"TSK-009","data":{"taskId":"TSK-009","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.380Z","type":"task_updated","taskId":"TSK-009","data":{"taskId":"TSK-009","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:44:24.393Z","type":"task_updated","taskId":"TSK-010","data":{"taskId":"TSK-010","action":"created"}}
+{"timestamp":"2026-07-30T11:44:24.398Z","type":"task_updated","taskId":"TSK-010","data":{"taskId":"TSK-010","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:46:09.121Z","type":"task_updated","taskId":"TSK-011","data":{"taskId":"TSK-011","action":"created"}}
+{"timestamp":"2026-07-30T11:46:09.126Z","type":"task_updated","taskId":"TSK-011","data":{"taskId":"TSK-011","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:51:27.141Z","type":"task_updated","taskId":"TSK-012","data":{"taskId":"TSK-012","action":"created"}}
+{"timestamp":"2026-07-30T11:51:27.145Z","type":"task_updated","taskId":"TSK-012","data":{"taskId":"TSK-012","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:51:27.155Z","type":"task_updated","taskId":"TSK-013","data":{"taskId":"TSK-013","action":"created"}}
+{"timestamp":"2026-07-30T11:51:27.159Z","type":"task_updated","taskId":"TSK-013","data":{"taskId":"TSK-013","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T11:51:27.170Z","type":"task_updated","taskId":"TSK-014","data":{"taskId":"TSK-014","action":"created"}}
+{"timestamp":"2026-07-30T11:51:27.174Z","type":"task_updated","taskId":"TSK-014","data":{"taskId":"TSK-014","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T12:58:19.892Z","type":"task_updated","taskId":"TSK-015","data":{"taskId":"TSK-015","action":"created"}}
+{"timestamp":"2026-07-30T12:58:19.899Z","type":"task_updated","taskId":"TSK-015","data":{"taskId":"TSK-015","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T12:58:19.915Z","type":"task_updated","taskId":"TSK-016","data":{"taskId":"TSK-016","action":"created"}}
+{"timestamp":"2026-07-30T12:58:19.921Z","type":"task_updated","taskId":"TSK-016","data":{"taskId":"TSK-016","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T12:58:19.935Z","type":"task_updated","taskId":"TSK-017","data":{"taskId":"TSK-017","action":"created"}}
+{"timestamp":"2026-07-30T12:58:19.941Z","type":"task_updated","taskId":"TSK-017","data":{"taskId":"TSK-017","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T12:58:19.955Z","type":"task_updated","taskId":"TSK-018","data":{"taskId":"TSK-018","action":"created"}}
+{"timestamp":"2026-07-30T12:58:19.960Z","type":"task_updated","taskId":"TSK-018","data":{"taskId":"TSK-018","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.483Z","type":"task_updated","taskId":"TSK-019","data":{"taskId":"TSK-019","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.491Z","type":"task_updated","taskId":"TSK-019","data":{"taskId":"TSK-019","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.512Z","type":"task_updated","taskId":"TSK-020","data":{"taskId":"TSK-020","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.522Z","type":"task_updated","taskId":"TSK-020","data":{"taskId":"TSK-020","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.548Z","type":"task_updated","taskId":"TSK-021","data":{"taskId":"TSK-021","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.558Z","type":"task_updated","taskId":"TSK-021","data":{"taskId":"TSK-021","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.580Z","type":"task_updated","taskId":"TSK-022","data":{"taskId":"TSK-022","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.588Z","type":"task_updated","taskId":"TSK-022","data":{"taskId":"TSK-022","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.612Z","type":"task_updated","taskId":"TSK-023","data":{"taskId":"TSK-023","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.620Z","type":"task_updated","taskId":"TSK-023","data":{"taskId":"TSK-023","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.645Z","type":"task_updated","taskId":"TSK-024","data":{"taskId":"TSK-024","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.655Z","type":"task_updated","taskId":"TSK-024","data":{"taskId":"TSK-024","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.685Z","type":"task_updated","taskId":"TSK-025","data":{"taskId":"TSK-025","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.697Z","type":"task_updated","taskId":"TSK-025","data":{"taskId":"TSK-025","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.726Z","type":"task_updated","taskId":"TSK-026","data":{"taskId":"TSK-026","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.740Z","type":"task_updated","taskId":"TSK-026","data":{"taskId":"TSK-026","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.773Z","type":"task_updated","taskId":"TSK-027","data":{"taskId":"TSK-027","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.787Z","type":"task_updated","taskId":"TSK-027","data":{"taskId":"TSK-027","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.828Z","type":"task_updated","taskId":"TSK-028","data":{"taskId":"TSK-028","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.846Z","type":"task_updated","taskId":"TSK-028","data":{"taskId":"TSK-028","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.890Z","type":"task_updated","taskId":"TSK-029","data":{"taskId":"TSK-029","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.900Z","type":"task_updated","taskId":"TSK-029","data":{"taskId":"TSK-029","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.923Z","type":"task_updated","taskId":"TSK-030","data":{"taskId":"TSK-030","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.930Z","type":"task_updated","taskId":"TSK-030","data":{"taskId":"TSK-030","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.952Z","type":"task_updated","taskId":"TSK-031","data":{"taskId":"TSK-031","action":"created"}}
+{"timestamp":"2026-07-30T13:30:25.965Z","type":"task_updated","taskId":"TSK-031","data":{"taskId":"TSK-031","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:25.994Z","type":"task_updated","taskId":"TSK-032","data":{"taskId":"TSK-032","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.006Z","type":"task_updated","taskId":"TSK-032","data":{"taskId":"TSK-032","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.037Z","type":"task_updated","taskId":"TSK-033","data":{"taskId":"TSK-033","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.047Z","type":"task_updated","taskId":"TSK-033","data":{"taskId":"TSK-033","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.075Z","type":"task_updated","taskId":"TSK-034","data":{"taskId":"TSK-034","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.085Z","type":"task_updated","taskId":"TSK-034","data":{"taskId":"TSK-034","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.105Z","type":"task_updated","taskId":"TSK-035","data":{"taskId":"TSK-035","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.113Z","type":"task_updated","taskId":"TSK-035","data":{"taskId":"TSK-035","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.131Z","type":"task_updated","taskId":"TSK-036","data":{"taskId":"TSK-036","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.138Z","type":"task_updated","taskId":"TSK-036","data":{"taskId":"TSK-036","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.158Z","type":"task_updated","taskId":"TSK-037","data":{"taskId":"TSK-037","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.167Z","type":"task_updated","taskId":"TSK-037","data":{"taskId":"TSK-037","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.196Z","type":"task_updated","taskId":"TSK-038","data":{"taskId":"TSK-038","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.210Z","type":"task_updated","taskId":"TSK-038","data":{"taskId":"TSK-038","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.240Z","type":"task_updated","taskId":"TSK-039","data":{"taskId":"TSK-039","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.252Z","type":"task_updated","taskId":"TSK-039","data":{"taskId":"TSK-039","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.283Z","type":"task_updated","taskId":"TSK-040","data":{"taskId":"TSK-040","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.295Z","type":"task_updated","taskId":"TSK-040","data":{"taskId":"TSK-040","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.321Z","type":"task_updated","taskId":"TSK-041","data":{"taskId":"TSK-041","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.331Z","type":"task_updated","taskId":"TSK-041","data":{"taskId":"TSK-041","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T13:30:26.357Z","type":"task_updated","taskId":"TSK-042","data":{"taskId":"TSK-042","action":"created"}}
+{"timestamp":"2026-07-30T13:30:26.367Z","type":"task_updated","taskId":"TSK-042","data":{"taskId":"TSK-042","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:56.917Z","type":"task_updated","taskId":"TSK-043","data":{"taskId":"TSK-043","action":"created"}}
+{"timestamp":"2026-07-30T14:08:56.945Z","type":"task_updated","taskId":"TSK-043","data":{"taskId":"TSK-043","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"critical","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:56.980Z","type":"task_updated","taskId":"TSK-044","data":{"taskId":"TSK-044","action":"created"}}
+{"timestamp":"2026-07-30T14:08:56.990Z","type":"task_updated","taskId":"TSK-044","data":{"taskId":"TSK-044","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"critical","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.014Z","type":"task_updated","taskId":"TSK-045","data":{"taskId":"TSK-045","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.023Z","type":"task_updated","taskId":"TSK-045","data":{"taskId":"TSK-045","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"critical","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.065Z","type":"task_updated","taskId":"TSK-046","data":{"taskId":"TSK-046","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.077Z","type":"task_updated","taskId":"TSK-046","data":{"taskId":"TSK-046","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"critical","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.112Z","type":"task_updated","taskId":"TSK-047","data":{"taskId":"TSK-047","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.134Z","type":"task_updated","taskId":"TSK-047","data":{"taskId":"TSK-047","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"critical","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.192Z","type":"task_updated","taskId":"TSK-048","data":{"taskId":"TSK-048","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.215Z","type":"task_updated","taskId":"TSK-048","data":{"taskId":"TSK-048","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.274Z","type":"task_updated","taskId":"TSK-049","data":{"taskId":"TSK-049","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.299Z","type":"task_updated","taskId":"TSK-049","data":{"taskId":"TSK-049","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:08:57.391Z","type":"task_updated","taskId":"TSK-050","data":{"taskId":"TSK-050","action":"created"}}
+{"timestamp":"2026-07-30T14:08:57.412Z","type":"task_updated","taskId":"TSK-050","data":{"taskId":"TSK-050","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:15:45.177Z","type":"task_updated","taskId":"TSK-051","data":{"taskId":"TSK-051","action":"created"}}
+{"timestamp":"2026-07-30T14:15:45.183Z","type":"task_updated","taskId":"TSK-051","data":{"taskId":"TSK-051","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:15:45.198Z","type":"task_updated","taskId":"TSK-052","data":{"taskId":"TSK-052","action":"created"}}
+{"timestamp":"2026-07-30T14:15:45.202Z","type":"task_updated","taskId":"TSK-052","data":{"taskId":"TSK-052","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:09.989Z","type":"task_updated","taskId":"TSK-053","data":{"taskId":"TSK-053","action":"created"}}
+{"timestamp":"2026-07-30T14:30:09.996Z","type":"task_updated","taskId":"TSK-053","data":{"taskId":"TSK-053","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.015Z","type":"task_updated","taskId":"TSK-054","data":{"taskId":"TSK-054","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.023Z","type":"task_updated","taskId":"TSK-054","data":{"taskId":"TSK-054","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.042Z","type":"task_updated","taskId":"TSK-055","data":{"taskId":"TSK-055","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.049Z","type":"task_updated","taskId":"TSK-055","data":{"taskId":"TSK-055","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.067Z","type":"task_updated","taskId":"TSK-056","data":{"taskId":"TSK-056","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.074Z","type":"task_updated","taskId":"TSK-056","data":{"taskId":"TSK-056","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.091Z","type":"task_updated","taskId":"TSK-057","data":{"taskId":"TSK-057","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.099Z","type":"task_updated","taskId":"TSK-057","data":{"taskId":"TSK-057","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.117Z","type":"task_updated","taskId":"TSK-058","data":{"taskId":"TSK-058","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.123Z","type":"task_updated","taskId":"TSK-058","data":{"taskId":"TSK-058","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.142Z","type":"task_updated","taskId":"TSK-059","data":{"taskId":"TSK-059","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.150Z","type":"task_updated","taskId":"TSK-059","data":{"taskId":"TSK-059","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.168Z","type":"task_updated","taskId":"TSK-060","data":{"taskId":"TSK-060","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.174Z","type":"task_updated","taskId":"TSK-060","data":{"taskId":"TSK-060","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.192Z","type":"task_updated","taskId":"TSK-061","data":{"taskId":"TSK-061","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.198Z","type":"task_updated","taskId":"TSK-061","data":{"taskId":"TSK-061","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-07-30T14:30:10.214Z","type":"task_updated","taskId":"TSK-062","data":{"taskId":"TSK-062","action":"created"}}
+{"timestamp":"2026-07-30T14:30:10.221Z","type":"task_updated","taskId":"TSK-062","data":{"taskId":"TSK-062","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.833Z","type":"task_updated","taskId":"TSK-063","data":{"taskId":"TSK-063","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.842Z","type":"task_updated","taskId":"TSK-063","data":{"taskId":"TSK-063","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.856Z","type":"task_updated","taskId":"TSK-064","data":{"taskId":"TSK-064","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.862Z","type":"task_updated","taskId":"TSK-064","data":{"taskId":"TSK-064","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.877Z","type":"task_updated","taskId":"TSK-065","data":{"taskId":"TSK-065","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.884Z","type":"task_updated","taskId":"TSK-065","data":{"taskId":"TSK-065","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.895Z","type":"task_updated","taskId":"TSK-066","data":{"taskId":"TSK-066","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.902Z","type":"task_updated","taskId":"TSK-066","data":{"taskId":"TSK-066","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.912Z","type":"task_updated","taskId":"TSK-067","data":{"taskId":"TSK-067","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.917Z","type":"task_updated","taskId":"TSK-067","data":{"taskId":"TSK-067","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.928Z","type":"task_updated","taskId":"TSK-068","data":{"taskId":"TSK-068","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.933Z","type":"task_updated","taskId":"TSK-068","data":{"taskId":"TSK-068","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:34:19.943Z","type":"task_updated","taskId":"TSK-069","data":{"taskId":"TSK-069","action":"created"}}
+{"timestamp":"2026-08-01T14:34:19.948Z","type":"task_updated","taskId":"TSK-069","data":{"taskId":"TSK-069","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.858Z","type":"task_updated","taskId":"TSK-070","data":{"taskId":"TSK-070","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.866Z","type":"task_updated","taskId":"TSK-070","data":{"taskId":"TSK-070","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.885Z","type":"task_updated","taskId":"TSK-071","data":{"taskId":"TSK-071","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.893Z","type":"task_updated","taskId":"TSK-071","data":{"taskId":"TSK-071","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.908Z","type":"task_updated","taskId":"TSK-072","data":{"taskId":"TSK-072","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.913Z","type":"task_updated","taskId":"TSK-072","data":{"taskId":"TSK-072","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.926Z","type":"task_updated","taskId":"TSK-073","data":{"taskId":"TSK-073","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.933Z","type":"task_updated","taskId":"TSK-073","data":{"taskId":"TSK-073","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.947Z","type":"task_updated","taskId":"TSK-074","data":{"taskId":"TSK-074","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.953Z","type":"task_updated","taskId":"TSK-074","data":{"taskId":"TSK-074","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.966Z","type":"task_updated","taskId":"TSK-075","data":{"taskId":"TSK-075","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.972Z","type":"task_updated","taskId":"TSK-075","data":{"taskId":"TSK-075","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:29.986Z","type":"task_updated","taskId":"TSK-076","data":{"taskId":"TSK-076","action":"created"}}
+{"timestamp":"2026-08-01T14:44:29.991Z","type":"task_updated","taskId":"TSK-076","data":{"taskId":"TSK-076","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.010Z","type":"task_updated","taskId":"TSK-077","data":{"taskId":"TSK-077","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.015Z","type":"task_updated","taskId":"TSK-077","data":{"taskId":"TSK-077","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.031Z","type":"task_updated","taskId":"TSK-078","data":{"taskId":"TSK-078","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.036Z","type":"task_updated","taskId":"TSK-078","data":{"taskId":"TSK-078","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.052Z","type":"task_updated","taskId":"TSK-079","data":{"taskId":"TSK-079","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.058Z","type":"task_updated","taskId":"TSK-079","data":{"taskId":"TSK-079","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.072Z","type":"task_updated","taskId":"TSK-080","data":{"taskId":"TSK-080","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.078Z","type":"task_updated","taskId":"TSK-080","data":{"taskId":"TSK-080","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.091Z","type":"task_updated","taskId":"TSK-081","data":{"taskId":"TSK-081","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.099Z","type":"task_updated","taskId":"TSK-081","data":{"taskId":"TSK-081","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.114Z","type":"task_updated","taskId":"TSK-082","data":{"taskId":"TSK-082","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.121Z","type":"task_updated","taskId":"TSK-082","data":{"taskId":"TSK-082","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.136Z","type":"task_updated","taskId":"TSK-083","data":{"taskId":"TSK-083","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.143Z","type":"task_updated","taskId":"TSK-083","data":{"taskId":"TSK-083","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.158Z","type":"task_updated","taskId":"TSK-084","data":{"taskId":"TSK-084","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.165Z","type":"task_updated","taskId":"TSK-084","data":{"taskId":"TSK-084","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.181Z","type":"task_updated","taskId":"TSK-085","data":{"taskId":"TSK-085","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.187Z","type":"task_updated","taskId":"TSK-085","data":{"taskId":"TSK-085","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.202Z","type":"task_updated","taskId":"TSK-086","data":{"taskId":"TSK-086","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.207Z","type":"task_updated","taskId":"TSK-086","data":{"taskId":"TSK-086","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.226Z","type":"task_updated","taskId":"TSK-087","data":{"taskId":"TSK-087","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.235Z","type":"task_updated","taskId":"TSK-087","data":{"taskId":"TSK-087","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.253Z","type":"task_updated","taskId":"TSK-088","data":{"taskId":"TSK-088","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.260Z","type":"task_updated","taskId":"TSK-088","data":{"taskId":"TSK-088","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.276Z","type":"task_updated","taskId":"TSK-089","data":{"taskId":"TSK-089","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.282Z","type":"task_updated","taskId":"TSK-089","data":{"taskId":"TSK-089","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.301Z","type":"task_updated","taskId":"TSK-090","data":{"taskId":"TSK-090","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.307Z","type":"task_updated","taskId":"TSK-090","data":{"taskId":"TSK-090","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.324Z","type":"task_updated","taskId":"TSK-091","data":{"taskId":"TSK-091","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.332Z","type":"task_updated","taskId":"TSK-091","data":{"taskId":"TSK-091","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.349Z","type":"task_updated","taskId":"TSK-092","data":{"taskId":"TSK-092","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.355Z","type":"task_updated","taskId":"TSK-092","data":{"taskId":"TSK-092","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.372Z","type":"task_updated","taskId":"TSK-093","data":{"taskId":"TSK-093","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.379Z","type":"task_updated","taskId":"TSK-093","data":{"taskId":"TSK-093","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.397Z","type":"task_updated","taskId":"TSK-094","data":{"taskId":"TSK-094","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.404Z","type":"task_updated","taskId":"TSK-094","data":{"taskId":"TSK-094","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T14:44:30.427Z","type":"task_updated","taskId":"TSK-095","data":{"taskId":"TSK-095","action":"created"}}
+{"timestamp":"2026-08-01T14:44:30.434Z","type":"task_updated","taskId":"TSK-095","data":{"taskId":"TSK-095","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.473Z","type":"task_updated","taskId":"TSK-096","data":{"taskId":"TSK-096","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.499Z","type":"task_updated","taskId":"TSK-096","data":{"taskId":"TSK-096","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.517Z","type":"task_updated","taskId":"TSK-097","data":{"taskId":"TSK-097","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.522Z","type":"task_updated","taskId":"TSK-097","data":{"taskId":"TSK-097","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.539Z","type":"task_updated","taskId":"TSK-098","data":{"taskId":"TSK-098","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.546Z","type":"task_updated","taskId":"TSK-098","data":{"taskId":"TSK-098","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.560Z","type":"task_updated","taskId":"TSK-099","data":{"taskId":"TSK-099","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.565Z","type":"task_updated","taskId":"TSK-099","data":{"taskId":"TSK-099","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.579Z","type":"task_updated","taskId":"TSK-100","data":{"taskId":"TSK-100","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.585Z","type":"task_updated","taskId":"TSK-100","data":{"taskId":"TSK-100","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.600Z","type":"task_updated","taskId":"TSK-101","data":{"taskId":"TSK-101","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.606Z","type":"task_updated","taskId":"TSK-101","data":{"taskId":"TSK-101","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.621Z","type":"task_updated","taskId":"TSK-102","data":{"taskId":"TSK-102","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.629Z","type":"task_updated","taskId":"TSK-102","data":{"taskId":"TSK-102","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.645Z","type":"task_updated","taskId":"TSK-103","data":{"taskId":"TSK-103","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.650Z","type":"task_updated","taskId":"TSK-103","data":{"taskId":"TSK-103","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.668Z","type":"task_updated","taskId":"TSK-104","data":{"taskId":"TSK-104","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.676Z","type":"task_updated","taskId":"TSK-104","data":{"taskId":"TSK-104","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.705Z","type":"task_updated","taskId":"TSK-105","data":{"taskId":"TSK-105","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.716Z","type":"task_updated","taskId":"TSK-105","data":{"taskId":"TSK-105","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.747Z","type":"task_updated","taskId":"TSK-106","data":{"taskId":"TSK-106","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.760Z","type":"task_updated","taskId":"TSK-106","data":{"taskId":"TSK-106","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:19:57.783Z","type":"task_updated","taskId":"TSK-107","data":{"taskId":"TSK-107","action":"created"}}
+{"timestamp":"2026-08-01T15:19:57.792Z","type":"task_updated","taskId":"TSK-107","data":{"taskId":"TSK-107","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.099Z","type":"task_updated","taskId":"TSK-108","data":{"taskId":"TSK-108","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.117Z","type":"task_updated","taskId":"TSK-108","data":{"taskId":"TSK-108","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.161Z","type":"task_updated","taskId":"TSK-109","data":{"taskId":"TSK-109","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.179Z","type":"task_updated","taskId":"TSK-109","data":{"taskId":"TSK-109","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.224Z","type":"task_updated","taskId":"TSK-110","data":{"taskId":"TSK-110","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.239Z","type":"task_updated","taskId":"TSK-110","data":{"taskId":"TSK-110","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.280Z","type":"task_updated","taskId":"TSK-111","data":{"taskId":"TSK-111","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.298Z","type":"task_updated","taskId":"TSK-111","data":{"taskId":"TSK-111","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.339Z","type":"task_updated","taskId":"TSK-112","data":{"taskId":"TSK-112","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.352Z","type":"task_updated","taskId":"TSK-112","data":{"taskId":"TSK-112","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.388Z","type":"task_updated","taskId":"TSK-113","data":{"taskId":"TSK-113","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.405Z","type":"task_updated","taskId":"TSK-113","data":{"taskId":"TSK-113","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.441Z","type":"task_updated","taskId":"TSK-114","data":{"taskId":"TSK-114","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.458Z","type":"task_updated","taskId":"TSK-114","data":{"taskId":"TSK-114","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.490Z","type":"task_updated","taskId":"TSK-115","data":{"taskId":"TSK-115","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.504Z","type":"task_updated","taskId":"TSK-115","data":{"taskId":"TSK-115","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.531Z","type":"task_updated","taskId":"TSK-116","data":{"taskId":"TSK-116","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.542Z","type":"task_updated","taskId":"TSK-116","data":{"taskId":"TSK-116","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:35:56.568Z","type":"task_updated","taskId":"TSK-117","data":{"taskId":"TSK-117","action":"created"}}
+{"timestamp":"2026-08-01T15:35:56.581Z","type":"task_updated","taskId":"TSK-117","data":{"taskId":"TSK-117","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.443Z","type":"task_updated","taskId":"TSK-118","data":{"taskId":"TSK-118","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.449Z","type":"task_updated","taskId":"TSK-118","data":{"taskId":"TSK-118","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.461Z","type":"task_updated","taskId":"TSK-119","data":{"taskId":"TSK-119","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.468Z","type":"task_updated","taskId":"TSK-119","data":{"taskId":"TSK-119","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.480Z","type":"task_updated","taskId":"TSK-120","data":{"taskId":"TSK-120","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.486Z","type":"task_updated","taskId":"TSK-120","data":{"taskId":"TSK-120","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.498Z","type":"task_updated","taskId":"TSK-121","data":{"taskId":"TSK-121","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.504Z","type":"task_updated","taskId":"TSK-121","data":{"taskId":"TSK-121","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.517Z","type":"task_updated","taskId":"TSK-122","data":{"taskId":"TSK-122","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.522Z","type":"task_updated","taskId":"TSK-122","data":{"taskId":"TSK-122","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.536Z","type":"task_updated","taskId":"TSK-123","data":{"taskId":"TSK-123","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.541Z","type":"task_updated","taskId":"TSK-123","data":{"taskId":"TSK-123","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.555Z","type":"task_updated","taskId":"TSK-124","data":{"taskId":"TSK-124","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.561Z","type":"task_updated","taskId":"TSK-124","data":{"taskId":"TSK-124","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.575Z","type":"task_updated","taskId":"TSK-125","data":{"taskId":"TSK-125","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.580Z","type":"task_updated","taskId":"TSK-125","data":{"taskId":"TSK-125","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.594Z","type":"task_updated","taskId":"TSK-126","data":{"taskId":"TSK-126","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.602Z","type":"task_updated","taskId":"TSK-126","data":{"taskId":"TSK-126","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.616Z","type":"task_updated","taskId":"TSK-127","data":{"taskId":"TSK-127","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.622Z","type":"task_updated","taskId":"TSK-127","data":{"taskId":"TSK-127","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T15:52:38.635Z","type":"task_updated","taskId":"TSK-128","data":{"taskId":"TSK-128","action":"created"}}
+{"timestamp":"2026-08-01T15:52:38.640Z","type":"task_updated","taskId":"TSK-128","data":{"taskId":"TSK-128","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.039Z","type":"task_updated","taskId":"TSK-129","data":{"taskId":"TSK-129","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.059Z","type":"task_updated","taskId":"TSK-129","data":{"taskId":"TSK-129","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.101Z","type":"task_updated","taskId":"TSK-130","data":{"taskId":"TSK-130","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.117Z","type":"task_updated","taskId":"TSK-130","data":{"taskId":"TSK-130","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.158Z","type":"task_updated","taskId":"TSK-131","data":{"taskId":"TSK-131","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.175Z","type":"task_updated","taskId":"TSK-131","data":{"taskId":"TSK-131","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.224Z","type":"task_updated","taskId":"TSK-132","data":{"taskId":"TSK-132","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.237Z","type":"task_updated","taskId":"TSK-132","data":{"taskId":"TSK-132","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.275Z","type":"task_updated","taskId":"TSK-133","data":{"taskId":"TSK-133","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.290Z","type":"task_updated","taskId":"TSK-133","data":{"taskId":"TSK-133","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.329Z","type":"task_updated","taskId":"TSK-134","data":{"taskId":"TSK-134","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.352Z","type":"task_updated","taskId":"TSK-134","data":{"taskId":"TSK-134","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.392Z","type":"task_updated","taskId":"TSK-135","data":{"taskId":"TSK-135","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.410Z","type":"task_updated","taskId":"TSK-135","data":{"taskId":"TSK-135","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.447Z","type":"task_updated","taskId":"TSK-136","data":{"taskId":"TSK-136","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.462Z","type":"task_updated","taskId":"TSK-136","data":{"taskId":"TSK-136","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.506Z","type":"task_updated","taskId":"TSK-137","data":{"taskId":"TSK-137","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.522Z","type":"task_updated","taskId":"TSK-137","data":{"taskId":"TSK-137","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.563Z","type":"task_updated","taskId":"TSK-138","data":{"taskId":"TSK-138","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.579Z","type":"task_updated","taskId":"TSK-138","data":{"taskId":"TSK-138","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.619Z","type":"task_updated","taskId":"TSK-139","data":{"taskId":"TSK-139","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.634Z","type":"task_updated","taskId":"TSK-139","data":{"taskId":"TSK-139","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:10:28.675Z","type":"task_updated","taskId":"TSK-140","data":{"taskId":"TSK-140","action":"created"}}
+{"timestamp":"2026-08-01T16:10:28.692Z","type":"task_updated","taskId":"TSK-140","data":{"taskId":"TSK-140","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.633Z","type":"task_updated","taskId":"TSK-141","data":{"taskId":"TSK-141","action":"created"}}
+{"timestamp":"2026-08-01T16:17:18.651Z","type":"task_updated","taskId":"TSK-141","data":{"taskId":"TSK-141","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.696Z","type":"task_updated","taskId":"TSK-142","data":{"taskId":"TSK-142","action":"created"}}
+{"timestamp":"2026-08-01T16:17:18.714Z","type":"task_updated","taskId":"TSK-142","data":{"taskId":"TSK-142","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.780Z","type":"task_updated","taskId":"TSK-143","data":{"taskId":"TSK-143","action":"created"}}
+{"timestamp":"2026-08-01T16:17:18.800Z","type":"task_updated","taskId":"TSK-143","data":{"taskId":"TSK-143","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.846Z","type":"task_updated","taskId":"TSK-144","data":{"taskId":"TSK-144","action":"created"}}
+{"timestamp":"2026-08-01T16:17:18.866Z","type":"task_updated","taskId":"TSK-144","data":{"taskId":"TSK-144","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.913Z","type":"task_updated","taskId":"TSK-145","data":{"taskId":"TSK-145","action":"created"}}
+{"timestamp":"2026-08-01T16:17:18.934Z","type":"task_updated","taskId":"TSK-145","data":{"taskId":"TSK-145","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:18.981Z","type":"task_updated","taskId":"TSK-146","data":{"taskId":"TSK-146","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.002Z","type":"task_updated","taskId":"TSK-146","data":{"taskId":"TSK-146","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.056Z","type":"task_updated","taskId":"TSK-147","data":{"taskId":"TSK-147","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.078Z","type":"task_updated","taskId":"TSK-147","data":{"taskId":"TSK-147","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.127Z","type":"task_updated","taskId":"TSK-148","data":{"taskId":"TSK-148","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.147Z","type":"task_updated","taskId":"TSK-148","data":{"taskId":"TSK-148","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.201Z","type":"task_updated","taskId":"TSK-149","data":{"taskId":"TSK-149","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.227Z","type":"task_updated","taskId":"TSK-149","data":{"taskId":"TSK-149","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.278Z","type":"task_updated","taskId":"TSK-150","data":{"taskId":"TSK-150","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.299Z","type":"task_updated","taskId":"TSK-150","data":{"taskId":"TSK-150","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.349Z","type":"task_updated","taskId":"TSK-151","data":{"taskId":"TSK-151","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.372Z","type":"task_updated","taskId":"TSK-151","data":{"taskId":"TSK-151","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.422Z","type":"task_updated","taskId":"TSK-152","data":{"taskId":"TSK-152","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.440Z","type":"task_updated","taskId":"TSK-152","data":{"taskId":"TSK-152","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.493Z","type":"task_updated","taskId":"TSK-153","data":{"taskId":"TSK-153","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.513Z","type":"task_updated","taskId":"TSK-153","data":{"taskId":"TSK-153","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:17:19.563Z","type":"task_updated","taskId":"TSK-154","data":{"taskId":"TSK-154","action":"created"}}
+{"timestamp":"2026-08-01T16:17:19.583Z","type":"task_updated","taskId":"TSK-154","data":{"taskId":"TSK-154","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.130Z","type":"task_updated","taskId":"TSK-155","data":{"taskId":"TSK-155","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.146Z","type":"task_updated","taskId":"TSK-155","data":{"taskId":"TSK-155","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.168Z","type":"task_updated","taskId":"TSK-156","data":{"taskId":"TSK-156","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.175Z","type":"task_updated","taskId":"TSK-156","data":{"taskId":"TSK-156","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.191Z","type":"task_updated","taskId":"TSK-157","data":{"taskId":"TSK-157","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.196Z","type":"task_updated","taskId":"TSK-157","data":{"taskId":"TSK-157","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.213Z","type":"task_updated","taskId":"TSK-158","data":{"taskId":"TSK-158","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.220Z","type":"task_updated","taskId":"TSK-158","data":{"taskId":"TSK-158","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.236Z","type":"task_updated","taskId":"TSK-159","data":{"taskId":"TSK-159","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.243Z","type":"task_updated","taskId":"TSK-159","data":{"taskId":"TSK-159","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.259Z","type":"task_updated","taskId":"TSK-160","data":{"taskId":"TSK-160","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.265Z","type":"task_updated","taskId":"TSK-160","data":{"taskId":"TSK-160","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.279Z","type":"task_updated","taskId":"TSK-161","data":{"taskId":"TSK-161","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.286Z","type":"task_updated","taskId":"TSK-161","data":{"taskId":"TSK-161","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.302Z","type":"task_updated","taskId":"TSK-162","data":{"taskId":"TSK-162","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.308Z","type":"task_updated","taskId":"TSK-162","data":{"taskId":"TSK-162","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T16:39:28.328Z","type":"task_updated","taskId":"TSK-163","data":{"taskId":"TSK-163","action":"created"}}
+{"timestamp":"2026-08-01T16:39:28.336Z","type":"task_updated","taskId":"TSK-163","data":{"taskId":"TSK-163","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.269Z","type":"task_updated","taskId":"TSK-164","data":{"taskId":"TSK-164","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.280Z","type":"task_updated","taskId":"TSK-164","data":{"taskId":"TSK-164","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.310Z","type":"task_updated","taskId":"TSK-165","data":{"taskId":"TSK-165","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.323Z","type":"task_updated","taskId":"TSK-165","data":{"taskId":"TSK-165","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.346Z","type":"task_updated","taskId":"TSK-166","data":{"taskId":"TSK-166","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.358Z","type":"task_updated","taskId":"TSK-166","data":{"taskId":"TSK-166","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.378Z","type":"task_updated","taskId":"TSK-167","data":{"taskId":"TSK-167","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.391Z","type":"task_updated","taskId":"TSK-167","data":{"taskId":"TSK-167","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.414Z","type":"task_updated","taskId":"TSK-168","data":{"taskId":"TSK-168","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.422Z","type":"task_updated","taskId":"TSK-168","data":{"taskId":"TSK-168","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:09:14.449Z","type":"task_updated","taskId":"TSK-169","data":{"taskId":"TSK-169","action":"created"}}
+{"timestamp":"2026-08-01T17:09:14.459Z","type":"task_updated","taskId":"TSK-169","data":{"taskId":"TSK-169","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:32.812Z","type":"task_updated","taskId":"TSK-170","data":{"taskId":"TSK-170","action":"created"}}
+{"timestamp":"2026-08-01T17:13:32.826Z","type":"task_updated","taskId":"TSK-170","data":{"taskId":"TSK-170","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:32.868Z","type":"task_updated","taskId":"TSK-171","data":{"taskId":"TSK-171","action":"created"}}
+{"timestamp":"2026-08-01T17:13:32.885Z","type":"task_updated","taskId":"TSK-171","data":{"taskId":"TSK-171","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:32.924Z","type":"task_updated","taskId":"TSK-172","data":{"taskId":"TSK-172","action":"created"}}
+{"timestamp":"2026-08-01T17:13:32.941Z","type":"task_updated","taskId":"TSK-172","data":{"taskId":"TSK-172","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:32.983Z","type":"task_updated","taskId":"TSK-173","data":{"taskId":"TSK-173","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.000Z","type":"task_updated","taskId":"TSK-173","data":{"taskId":"TSK-173","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.044Z","type":"task_updated","taskId":"TSK-174","data":{"taskId":"TSK-174","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.074Z","type":"task_updated","taskId":"TSK-174","data":{"taskId":"TSK-174","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.119Z","type":"task_updated","taskId":"TSK-175","data":{"taskId":"TSK-175","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.139Z","type":"task_updated","taskId":"TSK-175","data":{"taskId":"TSK-175","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.183Z","type":"task_updated","taskId":"TSK-176","data":{"taskId":"TSK-176","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.199Z","type":"task_updated","taskId":"TSK-176","data":{"taskId":"TSK-176","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.241Z","type":"task_updated","taskId":"TSK-177","data":{"taskId":"TSK-177","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.260Z","type":"task_updated","taskId":"TSK-177","data":{"taskId":"TSK-177","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.304Z","type":"task_updated","taskId":"TSK-178","data":{"taskId":"TSK-178","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.324Z","type":"task_updated","taskId":"TSK-178","data":{"taskId":"TSK-178","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.371Z","type":"task_updated","taskId":"TSK-179","data":{"taskId":"TSK-179","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.392Z","type":"task_updated","taskId":"TSK-179","data":{"taskId":"TSK-179","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:13:33.440Z","type":"task_updated","taskId":"TSK-180","data":{"taskId":"TSK-180","action":"created"}}
+{"timestamp":"2026-08-01T17:13:33.460Z","type":"task_updated","taskId":"TSK-180","data":{"taskId":"TSK-180","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:51:14.601Z","type":"task_updated","taskId":"TSK-181","data":{"taskId":"TSK-181","action":"created"}}
+{"timestamp":"2026-08-01T17:51:14.612Z","type":"task_updated","taskId":"TSK-181","data":{"taskId":"TSK-181","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:51:14.632Z","type":"task_updated","taskId":"TSK-182","data":{"taskId":"TSK-182","action":"created"}}
+{"timestamp":"2026-08-01T17:51:14.640Z","type":"task_updated","taskId":"TSK-182","data":{"taskId":"TSK-182","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-01T17:51:14.654Z","type":"task_updated","taskId":"TSK-183","data":{"taskId":"TSK-183","action":"created"}}
+{"timestamp":"2026-08-01T17:51:14.660Z","type":"task_updated","taskId":"TSK-183","data":{"taskId":"TSK-183","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.135Z","type":"task_updated","taskId":"TSK-184","data":{"taskId":"TSK-184","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.163Z","type":"task_updated","taskId":"TSK-184","data":{"taskId":"TSK-184","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.225Z","type":"task_updated","taskId":"TSK-185","data":{"taskId":"TSK-185","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.258Z","type":"task_updated","taskId":"TSK-185","data":{"taskId":"TSK-185","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.309Z","type":"task_updated","taskId":"TSK-186","data":{"taskId":"TSK-186","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.331Z","type":"task_updated","taskId":"TSK-186","data":{"taskId":"TSK-186","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.376Z","type":"task_updated","taskId":"TSK-187","data":{"taskId":"TSK-187","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.395Z","type":"task_updated","taskId":"TSK-187","data":{"taskId":"TSK-187","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.443Z","type":"task_updated","taskId":"TSK-188","data":{"taskId":"TSK-188","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.465Z","type":"task_updated","taskId":"TSK-188","data":{"taskId":"TSK-188","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.514Z","type":"task_updated","taskId":"TSK-189","data":{"taskId":"TSK-189","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.535Z","type":"task_updated","taskId":"TSK-189","data":{"taskId":"TSK-189","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.587Z","type":"task_updated","taskId":"TSK-190","data":{"taskId":"TSK-190","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.614Z","type":"task_updated","taskId":"TSK-190","data":{"taskId":"TSK-190","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.664Z","type":"task_updated","taskId":"TSK-191","data":{"taskId":"TSK-191","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.684Z","type":"task_updated","taskId":"TSK-191","data":{"taskId":"TSK-191","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.730Z","type":"task_updated","taskId":"TSK-192","data":{"taskId":"TSK-192","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.751Z","type":"task_updated","taskId":"TSK-192","data":{"taskId":"TSK-192","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:10:28.798Z","type":"task_updated","taskId":"TSK-193","data":{"taskId":"TSK-193","action":"created"}}
+{"timestamp":"2026-08-02T07:10:28.817Z","type":"task_updated","taskId":"TSK-193","data":{"taskId":"TSK-193","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:21.942Z","type":"task_updated","taskId":"TSK-194","data":{"taskId":"TSK-194","action":"created"}}
+{"timestamp":"2026-08-02T07:18:21.972Z","type":"task_updated","taskId":"TSK-194","data":{"taskId":"TSK-194","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:22.055Z","type":"task_updated","taskId":"TSK-195","data":{"taskId":"TSK-195","action":"created"}}
+{"timestamp":"2026-08-02T07:18:22.085Z","type":"task_updated","taskId":"TSK-195","data":{"taskId":"TSK-195","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:22.147Z","type":"task_updated","taskId":"TSK-196","data":{"taskId":"TSK-196","action":"created"}}
+{"timestamp":"2026-08-02T07:18:22.167Z","type":"task_updated","taskId":"TSK-196","data":{"taskId":"TSK-196","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:22.228Z","type":"task_updated","taskId":"TSK-197","data":{"taskId":"TSK-197","action":"created"}}
+{"timestamp":"2026-08-02T07:18:22.255Z","type":"task_updated","taskId":"TSK-197","data":{"taskId":"TSK-197","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:22.310Z","type":"task_updated","taskId":"TSK-198","data":{"taskId":"TSK-198","action":"created"}}
+{"timestamp":"2026-08-02T07:18:22.331Z","type":"task_updated","taskId":"TSK-198","data":{"taskId":"TSK-198","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:18:22.391Z","type":"task_updated","taskId":"TSK-199","data":{"taskId":"TSK-199","action":"created"}}
+{"timestamp":"2026-08-02T07:18:22.413Z","type":"task_updated","taskId":"TSK-199","data":{"taskId":"TSK-199","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.729Z","type":"task_updated","taskId":"TSK-200","data":{"taskId":"TSK-200","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.740Z","type":"task_updated","taskId":"TSK-200","data":{"taskId":"TSK-200","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.760Z","type":"task_updated","taskId":"TSK-201","data":{"taskId":"TSK-201","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.767Z","type":"task_updated","taskId":"TSK-201","data":{"taskId":"TSK-201","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.784Z","type":"task_updated","taskId":"TSK-202","data":{"taskId":"TSK-202","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.792Z","type":"task_updated","taskId":"TSK-202","data":{"taskId":"TSK-202","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.807Z","type":"task_updated","taskId":"TSK-203","data":{"taskId":"TSK-203","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.815Z","type":"task_updated","taskId":"TSK-203","data":{"taskId":"TSK-203","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.828Z","type":"task_updated","taskId":"TSK-204","data":{"taskId":"TSK-204","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.833Z","type":"task_updated","taskId":"TSK-204","data":{"taskId":"TSK-204","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.845Z","type":"task_updated","taskId":"TSK-205","data":{"taskId":"TSK-205","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.850Z","type":"task_updated","taskId":"TSK-205","data":{"taskId":"TSK-205","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.863Z","type":"task_updated","taskId":"TSK-206","data":{"taskId":"TSK-206","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.869Z","type":"task_updated","taskId":"TSK-206","data":{"taskId":"TSK-206","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.881Z","type":"task_updated","taskId":"TSK-207","data":{"taskId":"TSK-207","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.886Z","type":"task_updated","taskId":"TSK-207","data":{"taskId":"TSK-207","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.898Z","type":"task_updated","taskId":"TSK-208","data":{"taskId":"TSK-208","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.904Z","type":"task_updated","taskId":"TSK-208","data":{"taskId":"TSK-208","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"low","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.915Z","type":"task_updated","taskId":"TSK-209","data":{"taskId":"TSK-209","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.920Z","type":"task_updated","taskId":"TSK-209","data":{"taskId":"TSK-209","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"low","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.933Z","type":"task_updated","taskId":"TSK-210","data":{"taskId":"TSK-210","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.940Z","type":"task_updated","taskId":"TSK-210","data":{"taskId":"TSK-210","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.952Z","type":"task_updated","taskId":"TSK-211","data":{"taskId":"TSK-211","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.957Z","type":"task_updated","taskId":"TSK-211","data":{"taskId":"TSK-211","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T07:25:58.970Z","type":"task_updated","taskId":"TSK-212","data":{"taskId":"TSK-212","action":"created"}}
+{"timestamp":"2026-08-02T07:25:58.976Z","type":"task_updated","taskId":"TSK-212","data":{"taskId":"TSK-212","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.745Z","type":"task_updated","taskId":"TSK-213","data":{"taskId":"TSK-213","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.758Z","type":"task_updated","taskId":"TSK-213","data":{"taskId":"TSK-213","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.775Z","type":"task_updated","taskId":"TSK-214","data":{"taskId":"TSK-214","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.780Z","type":"task_updated","taskId":"TSK-214","data":{"taskId":"TSK-214","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.794Z","type":"task_updated","taskId":"TSK-215","data":{"taskId":"TSK-215","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.800Z","type":"task_updated","taskId":"TSK-215","data":{"taskId":"TSK-215","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.815Z","type":"task_updated","taskId":"TSK-216","data":{"taskId":"TSK-216","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.822Z","type":"task_updated","taskId":"TSK-216","data":{"taskId":"TSK-216","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.834Z","type":"task_updated","taskId":"TSK-217","data":{"taskId":"TSK-217","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.843Z","type":"task_updated","taskId":"TSK-217","data":{"taskId":"TSK-217","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.860Z","type":"task_updated","taskId":"TSK-218","data":{"taskId":"TSK-218","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.866Z","type":"task_updated","taskId":"TSK-218","data":{"taskId":"TSK-218","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T14:11:22.887Z","type":"task_updated","taskId":"TSK-219","data":{"taskId":"TSK-219","action":"created"}}
+{"timestamp":"2026-08-02T14:11:22.893Z","type":"task_updated","taskId":"TSK-219","data":{"taskId":"TSK-219","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:06:13.734Z","type":"task_updated","taskId":"TSK-220","data":{"taskId":"TSK-220","action":"created"}}
+{"timestamp":"2026-08-02T16:06:13.739Z","type":"task_updated","taskId":"TSK-220","data":{"taskId":"TSK-220","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:06:13.753Z","type":"task_updated","taskId":"TSK-221","data":{"taskId":"TSK-221","action":"created"}}
+{"timestamp":"2026-08-02T16:06:13.758Z","type":"task_updated","taskId":"TSK-221","data":{"taskId":"TSK-221","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:06:13.771Z","type":"task_updated","taskId":"TSK-222","data":{"taskId":"TSK-222","action":"created"}}
+{"timestamp":"2026-08-02T16:06:13.776Z","type":"task_updated","taskId":"TSK-222","data":{"taskId":"TSK-222","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:06:13.790Z","type":"task_updated","taskId":"TSK-223","data":{"taskId":"TSK-223","action":"created"}}
+{"timestamp":"2026-08-02T16:06:13.796Z","type":"task_updated","taskId":"TSK-223","data":{"taskId":"TSK-223","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.551Z","type":"task_updated","taskId":"TSK-224","data":{"taskId":"TSK-224","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.560Z","type":"task_updated","taskId":"TSK-224","data":{"taskId":"TSK-224","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.576Z","type":"task_updated","taskId":"TSK-225","data":{"taskId":"TSK-225","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.582Z","type":"task_updated","taskId":"TSK-225","data":{"taskId":"TSK-225","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.596Z","type":"task_updated","taskId":"TSK-226","data":{"taskId":"TSK-226","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.601Z","type":"task_updated","taskId":"TSK-226","data":{"taskId":"TSK-226","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.615Z","type":"task_updated","taskId":"TSK-227","data":{"taskId":"TSK-227","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.634Z","type":"task_updated","taskId":"TSK-227","data":{"taskId":"TSK-227","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.647Z","type":"task_updated","taskId":"TSK-228","data":{"taskId":"TSK-228","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.653Z","type":"task_updated","taskId":"TSK-228","data":{"taskId":"TSK-228","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.665Z","type":"task_updated","taskId":"TSK-229","data":{"taskId":"TSK-229","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.670Z","type":"task_updated","taskId":"TSK-229","data":{"taskId":"TSK-229","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:44:09.682Z","type":"task_updated","taskId":"TSK-230","data":{"taskId":"TSK-230","action":"created"}}
+{"timestamp":"2026-08-02T16:44:09.687Z","type":"task_updated","taskId":"TSK-230","data":{"taskId":"TSK-230","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.593Z","type":"task_updated","taskId":"TSK-231","data":{"taskId":"TSK-231","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.603Z","type":"task_updated","taskId":"TSK-231","data":{"taskId":"TSK-231","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.622Z","type":"task_updated","taskId":"TSK-232","data":{"taskId":"TSK-232","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.633Z","type":"task_updated","taskId":"TSK-232","data":{"taskId":"TSK-232","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.649Z","type":"task_updated","taskId":"TSK-233","data":{"taskId":"TSK-233","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.656Z","type":"task_updated","taskId":"TSK-233","data":{"taskId":"TSK-233","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.673Z","type":"task_updated","taskId":"TSK-234","data":{"taskId":"TSK-234","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.681Z","type":"task_updated","taskId":"TSK-234","data":{"taskId":"TSK-234","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.698Z","type":"task_updated","taskId":"TSK-235","data":{"taskId":"TSK-235","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.706Z","type":"task_updated","taskId":"TSK-235","data":{"taskId":"TSK-235","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T16:54:16.725Z","type":"task_updated","taskId":"TSK-236","data":{"taskId":"TSK-236","action":"created"}}
+{"timestamp":"2026-08-02T16:54:16.732Z","type":"task_updated","taskId":"TSK-236","data":{"taskId":"TSK-236","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.112Z","type":"task_updated","taskId":"TSK-237","data":{"taskId":"TSK-237","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.119Z","type":"task_updated","taskId":"TSK-237","data":{"taskId":"TSK-237","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.132Z","type":"task_updated","taskId":"TSK-238","data":{"taskId":"TSK-238","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.137Z","type":"task_updated","taskId":"TSK-238","data":{"taskId":"TSK-238","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.150Z","type":"task_updated","taskId":"TSK-239","data":{"taskId":"TSK-239","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.155Z","type":"task_updated","taskId":"TSK-239","data":{"taskId":"TSK-239","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.168Z","type":"task_updated","taskId":"TSK-240","data":{"taskId":"TSK-240","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.173Z","type":"task_updated","taskId":"TSK-240","data":{"taskId":"TSK-240","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.186Z","type":"task_updated","taskId":"TSK-241","data":{"taskId":"TSK-241","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.191Z","type":"task_updated","taskId":"TSK-241","data":{"taskId":"TSK-241","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T17:22:40.204Z","type":"task_updated","taskId":"TSK-242","data":{"taskId":"TSK-242","action":"created"}}
+{"timestamp":"2026-08-02T17:22:40.209Z","type":"task_updated","taskId":"TSK-242","data":{"taskId":"TSK-242","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.365Z","type":"task_updated","taskId":"TSK-243","data":{"taskId":"TSK-243","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.387Z","type":"task_updated","taskId":"TSK-243","data":{"taskId":"TSK-243","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.437Z","type":"task_updated","taskId":"TSK-244","data":{"taskId":"TSK-244","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.455Z","type":"task_updated","taskId":"TSK-244","data":{"taskId":"TSK-244","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.507Z","type":"task_updated","taskId":"TSK-245","data":{"taskId":"TSK-245","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.536Z","type":"task_updated","taskId":"TSK-245","data":{"taskId":"TSK-245","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.587Z","type":"task_updated","taskId":"TSK-246","data":{"taskId":"TSK-246","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.607Z","type":"task_updated","taskId":"TSK-246","data":{"taskId":"TSK-246","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.660Z","type":"task_updated","taskId":"TSK-247","data":{"taskId":"TSK-247","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.683Z","type":"task_updated","taskId":"TSK-247","data":{"taskId":"TSK-247","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:03:22.729Z","type":"task_updated","taskId":"TSK-248","data":{"taskId":"TSK-248","action":"created"}}
+{"timestamp":"2026-08-02T18:03:22.754Z","type":"task_updated","taskId":"TSK-248","data":{"taskId":"TSK-248","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:06.902Z","type":"task_updated","taskId":"TSK-249","data":{"taskId":"TSK-249","action":"created"}}
+{"timestamp":"2026-08-02T18:58:06.908Z","type":"task_updated","taskId":"TSK-249","data":{"taskId":"TSK-249","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:06.922Z","type":"task_updated","taskId":"TSK-250","data":{"taskId":"TSK-250","action":"created"}}
+{"timestamp":"2026-08-02T18:58:06.927Z","type":"task_updated","taskId":"TSK-250","data":{"taskId":"TSK-250","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:06.942Z","type":"task_updated","taskId":"TSK-251","data":{"taskId":"TSK-251","action":"created"}}
+{"timestamp":"2026-08-02T18:58:06.950Z","type":"task_updated","taskId":"TSK-251","data":{"taskId":"TSK-251","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:06.964Z","type":"task_updated","taskId":"TSK-252","data":{"taskId":"TSK-252","action":"created"}}
+{"timestamp":"2026-08-02T18:58:06.972Z","type":"task_updated","taskId":"TSK-252","data":{"taskId":"TSK-252","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:06.994Z","type":"task_updated","taskId":"TSK-253","data":{"taskId":"TSK-253","action":"created"}}
+{"timestamp":"2026-08-02T18:58:07.005Z","type":"task_updated","taskId":"TSK-253","data":{"taskId":"TSK-253","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T18:58:07.026Z","type":"task_updated","taskId":"TSK-254","data":{"taskId":"TSK-254","action":"created"}}
+{"timestamp":"2026-08-02T18:58:07.038Z","type":"task_updated","taskId":"TSK-254","data":{"taskId":"TSK-254","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:44:27.957Z","type":"task_updated","taskId":"TSK-255","data":{"taskId":"TSK-255","action":"created"}}
+{"timestamp":"2026-08-02T19:44:27.979Z","type":"task_updated","taskId":"TSK-255","data":{"taskId":"TSK-255","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:44:28.014Z","type":"task_updated","taskId":"TSK-256","data":{"taskId":"TSK-256","action":"created"}}
+{"timestamp":"2026-08-02T19:44:28.026Z","type":"task_updated","taskId":"TSK-256","data":{"taskId":"TSK-256","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:44:28.066Z","type":"task_updated","taskId":"TSK-257","data":{"taskId":"TSK-257","action":"created"}}
+{"timestamp":"2026-08-02T19:44:28.083Z","type":"task_updated","taskId":"TSK-257","data":{"taskId":"TSK-257","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:44:28.114Z","type":"task_updated","taskId":"TSK-258","data":{"taskId":"TSK-258","action":"created"}}
+{"timestamp":"2026-08-02T19:44:28.124Z","type":"task_updated","taskId":"TSK-258","data":{"taskId":"TSK-258","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:44:28.151Z","type":"task_updated","taskId":"TSK-259","data":{"taskId":"TSK-259","action":"created"}}
+{"timestamp":"2026-08-02T19:44:28.162Z","type":"task_updated","taskId":"TSK-259","data":{"taskId":"TSK-259","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:54:51.177Z","type":"task_updated","taskId":"TSK-260","data":{"taskId":"TSK-260","action":"created"}}
+{"timestamp":"2026-08-02T19:54:51.199Z","type":"task_updated","taskId":"TSK-260","data":{"taskId":"TSK-260","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:54:51.243Z","type":"task_updated","taskId":"TSK-261","data":{"taskId":"TSK-261","action":"created"}}
+{"timestamp":"2026-08-02T19:54:51.263Z","type":"task_updated","taskId":"TSK-261","data":{"taskId":"TSK-261","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:54:51.302Z","type":"task_updated","taskId":"TSK-262","data":{"taskId":"TSK-262","action":"created"}}
+{"timestamp":"2026-08-02T19:54:51.319Z","type":"task_updated","taskId":"TSK-262","data":{"taskId":"TSK-262","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:54:51.358Z","type":"task_updated","taskId":"TSK-263","data":{"taskId":"TSK-263","action":"created"}}
+{"timestamp":"2026-08-02T19:54:51.378Z","type":"task_updated","taskId":"TSK-263","data":{"taskId":"TSK-263","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-02T19:54:51.424Z","type":"task_updated","taskId":"TSK-264","data":{"taskId":"TSK-264","action":"created"}}
+{"timestamp":"2026-08-02T19:54:51.444Z","type":"task_updated","taskId":"TSK-264","data":{"taskId":"TSK-264","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.371Z","type":"task_updated","taskId":"TSK-265","data":{"taskId":"TSK-265","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.398Z","type":"task_updated","taskId":"TSK-265","data":{"taskId":"TSK-265","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.456Z","type":"task_updated","taskId":"TSK-266","data":{"taskId":"TSK-266","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.481Z","type":"task_updated","taskId":"TSK-266","data":{"taskId":"TSK-266","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.529Z","type":"task_updated","taskId":"TSK-267","data":{"taskId":"TSK-267","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.548Z","type":"task_updated","taskId":"TSK-267","data":{"taskId":"TSK-267","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.600Z","type":"task_updated","taskId":"TSK-268","data":{"taskId":"TSK-268","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.619Z","type":"task_updated","taskId":"TSK-268","data":{"taskId":"TSK-268","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.659Z","type":"task_updated","taskId":"TSK-269","data":{"taskId":"TSK-269","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.677Z","type":"task_updated","taskId":"TSK-269","data":{"taskId":"TSK-269","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:12:40.718Z","type":"task_updated","taskId":"TSK-270","data":{"taskId":"TSK-270","action":"created"}}
+{"timestamp":"2026-08-03T14:12:40.732Z","type":"task_updated","taskId":"TSK-270","data":{"taskId":"TSK-270","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.370Z","type":"task_updated","taskId":"TSK-271","data":{"taskId":"TSK-271","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.377Z","type":"task_updated","taskId":"TSK-271","data":{"taskId":"TSK-271","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.393Z","type":"task_updated","taskId":"TSK-272","data":{"taskId":"TSK-272","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.398Z","type":"task_updated","taskId":"TSK-272","data":{"taskId":"TSK-272","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.413Z","type":"task_updated","taskId":"TSK-273","data":{"taskId":"TSK-273","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.419Z","type":"task_updated","taskId":"TSK-273","data":{"taskId":"TSK-273","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.433Z","type":"task_updated","taskId":"TSK-274","data":{"taskId":"TSK-274","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.439Z","type":"task_updated","taskId":"TSK-274","data":{"taskId":"TSK-274","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.454Z","type":"task_updated","taskId":"TSK-275","data":{"taskId":"TSK-275","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.459Z","type":"task_updated","taskId":"TSK-275","data":{"taskId":"TSK-275","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T14:46:14.473Z","type":"task_updated","taskId":"TSK-276","data":{"taskId":"TSK-276","action":"created"}}
+{"timestamp":"2026-08-03T14:46:14.478Z","type":"task_updated","taskId":"TSK-276","data":{"taskId":"TSK-276","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.508Z","type":"task_updated","taskId":"TSK-277","data":{"taskId":"TSK-277","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.529Z","type":"task_updated","taskId":"TSK-277","data":{"taskId":"TSK-277","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.578Z","type":"task_updated","taskId":"TSK-278","data":{"taskId":"TSK-278","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.596Z","type":"task_updated","taskId":"TSK-278","data":{"taskId":"TSK-278","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.646Z","type":"task_updated","taskId":"TSK-279","data":{"taskId":"TSK-279","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.665Z","type":"task_updated","taskId":"TSK-279","data":{"taskId":"TSK-279","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.712Z","type":"task_updated","taskId":"TSK-280","data":{"taskId":"TSK-280","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.731Z","type":"task_updated","taskId":"TSK-280","data":{"taskId":"TSK-280","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.768Z","type":"task_updated","taskId":"TSK-281","data":{"taskId":"TSK-281","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.788Z","type":"task_updated","taskId":"TSK-281","data":{"taskId":"TSK-281","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.830Z","type":"task_updated","taskId":"TSK-282","data":{"taskId":"TSK-282","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.852Z","type":"task_updated","taskId":"TSK-282","data":{"taskId":"TSK-282","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.887Z","type":"task_updated","taskId":"TSK-283","data":{"taskId":"TSK-283","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.902Z","type":"task_updated","taskId":"TSK-283","data":{"taskId":"TSK-283","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:33.944Z","type":"task_updated","taskId":"TSK-284","data":{"taskId":"TSK-284","action":"created"}}
+{"timestamp":"2026-08-03T16:56:33.964Z","type":"task_updated","taskId":"TSK-284","data":{"taskId":"TSK-284","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:34.003Z","type":"task_updated","taskId":"TSK-285","data":{"taskId":"TSK-285","action":"created"}}
+{"timestamp":"2026-08-03T16:56:34.020Z","type":"task_updated","taskId":"TSK-285","data":{"taskId":"TSK-285","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"low","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:34.058Z","type":"task_updated","taskId":"TSK-286","data":{"taskId":"TSK-286","action":"created"}}
+{"timestamp":"2026-08-03T16:56:34.075Z","type":"task_updated","taskId":"TSK-286","data":{"taskId":"TSK-286","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:34.123Z","type":"task_updated","taskId":"TSK-287","data":{"taskId":"TSK-287","action":"created"}}
+{"timestamp":"2026-08-03T16:56:34.140Z","type":"task_updated","taskId":"TSK-287","data":{"taskId":"TSK-287","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:56:34.196Z","type":"task_updated","taskId":"TSK-288","data":{"taskId":"TSK-288","action":"created"}}
+{"timestamp":"2026-08-03T16:56:34.213Z","type":"task_updated","taskId":"TSK-288","data":{"taskId":"TSK-288","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:34.855Z","type":"task_updated","taskId":"TSK-289","data":{"taskId":"TSK-289","action":"created"}}
+{"timestamp":"2026-08-03T16:58:34.865Z","type":"task_updated","taskId":"TSK-289","data":{"taskId":"TSK-289","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:34.883Z","type":"task_updated","taskId":"TSK-290","data":{"taskId":"TSK-290","action":"created"}}
+{"timestamp":"2026-08-03T16:58:34.894Z","type":"task_updated","taskId":"TSK-290","data":{"taskId":"TSK-290","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:34.917Z","type":"task_updated","taskId":"TSK-291","data":{"taskId":"TSK-291","action":"created"}}
+{"timestamp":"2026-08-03T16:58:34.927Z","type":"task_updated","taskId":"TSK-291","data":{"taskId":"TSK-291","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:34.947Z","type":"task_updated","taskId":"TSK-292","data":{"taskId":"TSK-292","action":"created"}}
+{"timestamp":"2026-08-03T16:58:34.964Z","type":"task_updated","taskId":"TSK-292","data":{"taskId":"TSK-292","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:34.983Z","type":"task_updated","taskId":"TSK-293","data":{"taskId":"TSK-293","action":"created"}}
+{"timestamp":"2026-08-03T16:58:34.992Z","type":"task_updated","taskId":"TSK-293","data":{"taskId":"TSK-293","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:35.019Z","type":"task_updated","taskId":"TSK-294","data":{"taskId":"TSK-294","action":"created"}}
+{"timestamp":"2026-08-03T16:58:35.030Z","type":"task_updated","taskId":"TSK-294","data":{"taskId":"TSK-294","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:35.059Z","type":"task_updated","taskId":"TSK-295","data":{"taskId":"TSK-295","action":"created"}}
+{"timestamp":"2026-08-03T16:58:35.072Z","type":"task_updated","taskId":"TSK-295","data":{"taskId":"TSK-295","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T16:58:35.092Z","type":"task_updated","taskId":"TSK-296","data":{"taskId":"TSK-296","action":"created"}}
+{"timestamp":"2026-08-03T16:58:35.100Z","type":"task_updated","taskId":"TSK-296","data":{"taskId":"TSK-296","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"low","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:15.904Z","type":"task_updated","taskId":"TSK-297","data":{"taskId":"TSK-297","action":"created"}}
+{"timestamp":"2026-08-03T17:21:15.912Z","type":"task_updated","taskId":"TSK-297","data":{"taskId":"TSK-297","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:15.933Z","type":"task_updated","taskId":"TSK-298","data":{"taskId":"TSK-298","action":"created"}}
+{"timestamp":"2026-08-03T17:21:15.942Z","type":"task_updated","taskId":"TSK-298","data":{"taskId":"TSK-298","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:15.961Z","type":"task_updated","taskId":"TSK-299","data":{"taskId":"TSK-299","action":"created"}}
+{"timestamp":"2026-08-03T17:21:15.968Z","type":"task_updated","taskId":"TSK-299","data":{"taskId":"TSK-299","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:15.988Z","type":"task_updated","taskId":"TSK-300","data":{"taskId":"TSK-300","action":"created"}}
+{"timestamp":"2026-08-03T17:21:15.997Z","type":"task_updated","taskId":"TSK-300","data":{"taskId":"TSK-300","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:16.016Z","type":"task_updated","taskId":"TSK-301","data":{"taskId":"TSK-301","action":"created"}}
+{"timestamp":"2026-08-03T17:21:16.023Z","type":"task_updated","taskId":"TSK-301","data":{"taskId":"TSK-301","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:16.042Z","type":"task_updated","taskId":"TSK-302","data":{"taskId":"TSK-302","action":"created"}}
+{"timestamp":"2026-08-03T17:21:16.048Z","type":"task_updated","taskId":"TSK-302","data":{"taskId":"TSK-302","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-03T17:21:16.068Z","type":"task_updated","taskId":"TSK-303","data":{"taskId":"TSK-303","action":"created"}}
+{"timestamp":"2026-08-03T17:21:16.075Z","type":"task_updated","taskId":"TSK-303","data":{"taskId":"TSK-303","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:00.032Z","type":"task_updated","taskId":"TSK-304","data":{"taskId":"TSK-304","action":"created"}}
+{"timestamp":"2026-08-04T17:18:00.050Z","type":"task_updated","taskId":"TSK-304","data":{"taskId":"TSK-304","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:00.091Z","type":"task_updated","taskId":"TSK-305","data":{"taskId":"TSK-305","action":"created"}}
+{"timestamp":"2026-08-04T17:18:00.103Z","type":"task_updated","taskId":"TSK-305","data":{"taskId":"TSK-305","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:00.140Z","type":"task_updated","taskId":"TSK-306","data":{"taskId":"TSK-306","action":"created"}}
+{"timestamp":"2026-08-04T17:18:00.159Z","type":"task_updated","taskId":"TSK-306","data":{"taskId":"TSK-306","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:00.196Z","type":"task_updated","taskId":"TSK-307","data":{"taskId":"TSK-307","action":"created"}}
+{"timestamp":"2026-08-04T17:18:00.210Z","type":"task_updated","taskId":"TSK-307","data":{"taskId":"TSK-307","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:00.236Z","type":"task_updated","taskId":"TSK-308","data":{"taskId":"TSK-308","action":"created"}}
+{"timestamp":"2026-08-04T17:18:00.251Z","type":"task_updated","taskId":"TSK-308","data":{"taskId":"TSK-308","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.622Z","type":"task_updated","taskId":"TSK-309","data":{"taskId":"TSK-309","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.632Z","type":"task_updated","taskId":"TSK-309","data":{"taskId":"TSK-309","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.654Z","type":"task_updated","taskId":"TSK-310","data":{"taskId":"TSK-310","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.663Z","type":"task_updated","taskId":"TSK-310","data":{"taskId":"TSK-310","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.688Z","type":"task_updated","taskId":"TSK-311","data":{"taskId":"TSK-311","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.697Z","type":"task_updated","taskId":"TSK-311","data":{"taskId":"TSK-311","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.718Z","type":"task_updated","taskId":"TSK-312","data":{"taskId":"TSK-312","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.729Z","type":"task_updated","taskId":"TSK-312","data":{"taskId":"TSK-312","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.758Z","type":"task_updated","taskId":"TSK-313","data":{"taskId":"TSK-313","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.772Z","type":"task_updated","taskId":"TSK-313","data":{"taskId":"TSK-313","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.799Z","type":"task_updated","taskId":"TSK-314","data":{"taskId":"TSK-314","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.810Z","type":"task_updated","taskId":"TSK-314","data":{"taskId":"TSK-314","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.834Z","type":"task_updated","taskId":"TSK-315","data":{"taskId":"TSK-315","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.845Z","type":"task_updated","taskId":"TSK-315","data":{"taskId":"TSK-315","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.868Z","type":"task_updated","taskId":"TSK-316","data":{"taskId":"TSK-316","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.880Z","type":"task_updated","taskId":"TSK-316","data":{"taskId":"TSK-316","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.909Z","type":"task_updated","taskId":"TSK-317","data":{"taskId":"TSK-317","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.928Z","type":"task_updated","taskId":"TSK-317","data":{"taskId":"TSK-317","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:55.972Z","type":"task_updated","taskId":"TSK-318","data":{"taskId":"TSK-318","action":"created"}}
+{"timestamp":"2026-08-04T17:18:55.994Z","type":"task_updated","taskId":"TSK-318","data":{"taskId":"TSK-318","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.042Z","type":"task_updated","taskId":"TSK-319","data":{"taskId":"TSK-319","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.066Z","type":"task_updated","taskId":"TSK-319","data":{"taskId":"TSK-319","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.117Z","type":"task_updated","taskId":"TSK-320","data":{"taskId":"TSK-320","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.140Z","type":"task_updated","taskId":"TSK-320","data":{"taskId":"TSK-320","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.186Z","type":"task_updated","taskId":"TSK-321","data":{"taskId":"TSK-321","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.205Z","type":"task_updated","taskId":"TSK-321","data":{"taskId":"TSK-321","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.243Z","type":"task_updated","taskId":"TSK-322","data":{"taskId":"TSK-322","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.262Z","type":"task_updated","taskId":"TSK-322","data":{"taskId":"TSK-322","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.309Z","type":"task_updated","taskId":"TSK-323","data":{"taskId":"TSK-323","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.332Z","type":"task_updated","taskId":"TSK-323","data":{"taskId":"TSK-323","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.379Z","type":"task_updated","taskId":"TSK-324","data":{"taskId":"TSK-324","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.403Z","type":"task_updated","taskId":"TSK-324","data":{"taskId":"TSK-324","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:18:56.456Z","type":"task_updated","taskId":"TSK-325","data":{"taskId":"TSK-325","action":"created"}}
+{"timestamp":"2026-08-04T17:18:56.480Z","type":"task_updated","taskId":"TSK-325","data":{"taskId":"TSK-325","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:34:52.091Z","type":"task_updated","taskId":"TSK-326","data":{"taskId":"TSK-326","action":"created"}}
+{"timestamp":"2026-08-04T17:34:52.097Z","type":"task_updated","taskId":"TSK-326","data":{"taskId":"TSK-326","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:34:52.110Z","type":"task_updated","taskId":"TSK-327","data":{"taskId":"TSK-327","action":"created"}}
+{"timestamp":"2026-08-04T17:34:52.115Z","type":"task_updated","taskId":"TSK-327","data":{"taskId":"TSK-327","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:34:52.129Z","type":"task_updated","taskId":"TSK-328","data":{"taskId":"TSK-328","action":"created"}}
+{"timestamp":"2026-08-04T17:34:52.136Z","type":"task_updated","taskId":"TSK-328","data":{"taskId":"TSK-328","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:34:52.148Z","type":"task_updated","taskId":"TSK-329","data":{"taskId":"TSK-329","action":"created"}}
+{"timestamp":"2026-08-04T17:34:52.154Z","type":"task_updated","taskId":"TSK-329","data":{"taskId":"TSK-329","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:34:52.167Z","type":"task_updated","taskId":"TSK-330","data":{"taskId":"TSK-330","action":"created"}}
+{"timestamp":"2026-08-04T17:34:52.173Z","type":"task_updated","taskId":"TSK-330","data":{"taskId":"TSK-330","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:39:18.324Z","type":"task_updated","taskId":"TSK-331","data":{"taskId":"TSK-331","action":"created"}}
+{"timestamp":"2026-08-04T17:39:18.335Z","type":"task_updated","taskId":"TSK-331","data":{"taskId":"TSK-331","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:39:18.359Z","type":"task_updated","taskId":"TSK-332","data":{"taskId":"TSK-332","action":"created"}}
+{"timestamp":"2026-08-04T17:39:18.370Z","type":"task_updated","taskId":"TSK-332","data":{"taskId":"TSK-332","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:39:18.394Z","type":"task_updated","taskId":"TSK-333","data":{"taskId":"TSK-333","action":"created"}}
+{"timestamp":"2026-08-04T17:39:18.404Z","type":"task_updated","taskId":"TSK-333","data":{"taskId":"TSK-333","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:39:18.427Z","type":"task_updated","taskId":"TSK-334","data":{"taskId":"TSK-334","action":"created"}}
+{"timestamp":"2026-08-04T17:39:18.439Z","type":"task_updated","taskId":"TSK-334","data":{"taskId":"TSK-334","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T17:39:18.467Z","type":"task_updated","taskId":"TSK-335","data":{"taskId":"TSK-335","action":"created"}}
+{"timestamp":"2026-08-04T17:39:18.480Z","type":"task_updated","taskId":"TSK-335","data":{"taskId":"TSK-335","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:39.956Z","type":"task_updated","taskId":"TSK-336","data":{"taskId":"TSK-336","action":"created"}}
+{"timestamp":"2026-08-04T18:11:39.973Z","type":"task_updated","taskId":"TSK-336","data":{"taskId":"TSK-336","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.005Z","type":"task_updated","taskId":"TSK-337","data":{"taskId":"TSK-337","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.019Z","type":"task_updated","taskId":"TSK-337","data":{"taskId":"TSK-337","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.051Z","type":"task_updated","taskId":"TSK-338","data":{"taskId":"TSK-338","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.063Z","type":"task_updated","taskId":"TSK-338","data":{"taskId":"TSK-338","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.092Z","type":"task_updated","taskId":"TSK-339","data":{"taskId":"TSK-339","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.104Z","type":"task_updated","taskId":"TSK-339","data":{"taskId":"TSK-339","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.135Z","type":"task_updated","taskId":"TSK-340","data":{"taskId":"TSK-340","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.148Z","type":"task_updated","taskId":"TSK-340","data":{"taskId":"TSK-340","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.173Z","type":"task_updated","taskId":"TSK-341","data":{"taskId":"TSK-341","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.184Z","type":"task_updated","taskId":"TSK-341","data":{"taskId":"TSK-341","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.209Z","type":"task_updated","taskId":"TSK-342","data":{"taskId":"TSK-342","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.220Z","type":"task_updated","taskId":"TSK-342","data":{"taskId":"TSK-342","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.246Z","type":"task_updated","taskId":"TSK-343","data":{"taskId":"TSK-343","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.256Z","type":"task_updated","taskId":"TSK-343","data":{"taskId":"TSK-343","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:11:40.280Z","type":"task_updated","taskId":"TSK-344","data":{"taskId":"TSK-344","action":"created"}}
+{"timestamp":"2026-08-04T18:11:40.290Z","type":"task_updated","taskId":"TSK-344","data":{"taskId":"TSK-344","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"medium","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:51.726Z","type":"task_updated","taskId":"TSK-345","data":{"taskId":"TSK-345","action":"created"}}
+{"timestamp":"2026-08-04T18:23:51.750Z","type":"task_updated","taskId":"TSK-345","data":{"taskId":"TSK-345","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:51.815Z","type":"task_updated","taskId":"TSK-346","data":{"taskId":"TSK-346","action":"created"}}
+{"timestamp":"2026-08-04T18:23:51.840Z","type":"task_updated","taskId":"TSK-346","data":{"taskId":"TSK-346","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:51.893Z","type":"task_updated","taskId":"TSK-347","data":{"taskId":"TSK-347","action":"created"}}
+{"timestamp":"2026-08-04T18:23:51.911Z","type":"task_updated","taskId":"TSK-347","data":{"taskId":"TSK-347","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:51.961Z","type":"task_updated","taskId":"TSK-348","data":{"taskId":"TSK-348","action":"created"}}
+{"timestamp":"2026-08-04T18:23:51.978Z","type":"task_updated","taskId":"TSK-348","data":{"taskId":"TSK-348","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:52.027Z","type":"task_updated","taskId":"TSK-349","data":{"taskId":"TSK-349","action":"created"}}
+{"timestamp":"2026-08-04T18:23:52.047Z","type":"task_updated","taskId":"TSK-349","data":{"taskId":"TSK-349","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:52.089Z","type":"task_updated","taskId":"TSK-350","data":{"taskId":"TSK-350","action":"created"}}
+{"timestamp":"2026-08-04T18:23:52.111Z","type":"task_updated","taskId":"TSK-350","data":{"taskId":"TSK-350","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:52.153Z","type":"task_updated","taskId":"TSK-351","data":{"taskId":"TSK-351","action":"created"}}
+{"timestamp":"2026-08-04T18:23:52.169Z","type":"task_updated","taskId":"TSK-351","data":{"taskId":"TSK-351","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:52.200Z","type":"task_updated","taskId":"TSK-352","data":{"taskId":"TSK-352","action":"created"}}
+{"timestamp":"2026-08-04T18:23:52.215Z","type":"task_updated","taskId":"TSK-352","data":{"taskId":"TSK-352","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}
+{"timestamp":"2026-08-04T18:23:52.251Z","type":"task_updated","taskId":"TSK-353","data":{"taskId":"TSK-353","action":"created"}}
+{"timestamp":"2026-08-04T18:23:52.269Z","type":"task_updated","taskId":"TSK-353","data":{"taskId":"TSK-353","patch":{"description":"","acceptanceCriteria":["Task completed"],"priority":"high","agent":{"goal":"","scope":["*"],"definitionOfDone":["Task completed"]}}}}

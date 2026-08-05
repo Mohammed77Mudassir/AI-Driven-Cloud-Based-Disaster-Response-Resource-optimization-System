@@ -1,0 +1,74 @@
+{
+  "chats": [
+    {
+      "id": "92b630fc-f372-4c8e-ac9a-dd1e1a218670",
+      "title": "New Conversation",
+      "createdAt": "2026-07-30T11:22:47.398Z",
+      "updatedAt": "2026-07-30T11:22:47.399Z",
+      "messageCount": 0
+    },
+    {
+      "id": "e4083569-d4f9-4c2f-9a61-f686a08f0d8c",
+      "title": "can you analyze this project",
+      "createdAt": "2026-07-30T11:23:18.234Z",
+      "updatedAt": "2026-07-30T11:46:09.127Z",
+      "messageCount": 4
+    },
+    {
+      "id": "c28a6b83-071f-4a27-aa23-c09d173473ff",
+      "title": "complete the project",
+      "createdAt": "2026-07-30T11:45:07.420Z",
+      "updatedAt": "2026-07-30T14:31:40.620Z",
+      "messageCount": 22
+    },
+    {
+      "id": "2de156a0-93d7-4cfe-94d3-4ac56b89d0c2",
+      "title": "briefly analyze complete features and process o...",
+      "createdAt": "2026-08-01T13:52:14.570Z",
+      "updatedAt": "2026-08-01T14:44:30.436Z",
+      "messageCount": 5
+    },
+    {
+      "id": "da951e9b-0930-4632-9b63-fdb8ec09e1f3",
+      "title": "Upgrade the authentication and login system to an",
+      "createdAt": "2026-08-01T14:48:05.932Z",
+      "updatedAt": "2026-08-01T18:01:28.279Z",
+      "messageCount": 15
+    },
+    {
+      "id": "22ff3fe5-e41b-4791-afe2-36d51de57454",
+      "title": "explain what all done in this project presently",
+      "createdAt": "2026-08-02T06:34:05.175Z",
+      "updatedAt": "2026-08-02T07:26:16.663Z",
+      "messageCount": 7
+    },
+    {
+      "id": "b5cb87e3-3689-46ab-afc0-a231515b1977",
+      "title": "analyze the all the files present in this",
+      "createdAt": "2026-08-02T13:59:02.511Z",
+      "updatedAt": "2026-08-02T20:18:20.671Z",
+      "messageCount": 25
+    },
+    {
+      "id": "52abcf03-74a8-4101-bdac-9f3a9e7e7dfa",
+      "title": "New Conversation",
+      "createdAt": "2026-08-03T13:41:56.268Z",
+      "updatedAt": "2026-08-03T13:41:56.268Z",
+      "messageCount": 0
+    },
+    {
+      "id": "9c691d52-5ee7-4dc8-91e3-beb83b2a6cde",
+      "title": "# TASK: Upgrade ONLY the Login Page UI/UX",
+      "createdAt": "2026-08-03T13:53:13.443Z",
+      "updatedAt": "2026-08-03T17:32:53.571Z",
+      "messageCount": 13
+    },
+    {
+      "id": "4c541c48-d848-47ad-9296-c680a23c475a",
+      "title": "TASK: Remove Demo Login UI Only (No Functional",
+      "createdAt": "2026-08-04T16:47:18.910Z",
+      "updatedAt": "2026-08-04T18:26:39.380Z",
+      "messageCount": 15
+    }
+  ]
+}

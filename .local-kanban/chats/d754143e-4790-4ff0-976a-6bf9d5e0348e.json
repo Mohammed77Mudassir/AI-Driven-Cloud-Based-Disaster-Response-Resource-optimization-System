@@ -1,0 +1,20 @@
+{
+  "id": "d754143e-4790-4ff0-976a-6bf9d5e0348e",
+  "title": "what are the all the users and there",
+  "messages": [
+    {
+      "id": "834fc7e1-6b56-42c5-9df1-320197e49638",
+      "role": "user",
+      "content": "what are the all the users and there credentials to log in",
+      "timestamp": 1785910194189
+    },
+    {
+      "id": "8a0f71e0-105b-43f3-8e07-37e857862cbe",
+      "role": "assistant",
+      "content": "🔍 Searching: `**/*.sql`\n🔍 Searching: `**/seed*`\n🔎 Grep: `password`\n🔍 Searching: `**/README*`\n📖 Reading: `C:\\Users\\mudas\\AI-Disaster-Management-System\\backend\\src\\main\\java\\com\\disaster\\config\\DataSeeder.java`The seeded demo accounts (from `backend/src/main/java/com/disaster/config/DataSeeder.java:70-78`) are:\n\n| Username | Password | Role |\n|---|---|---|\n| admin | admin123 | ADMIN |\n| user | user123 | USER |\n| dmo | dmo123 | DMO (Disaster Management Officer) |\n| police | police123 | POLICE |\n| fire | fire123 | FIRE_DEPARTMENT |\n| hospital | hospital123 | HOSPITAL_STAFF |\n| rescue | rescue123 | RESCUE_TEAM |\n| volunteer | volunteer123 | VOLUNTEER_COORDINATOR |\n| ngo | ngo123 | NGO_COORDINATOR |\n\nNote: these are only created on the demo profile (`@Profile(\"!postgres\")`, DataSeeder.java:23). They're seeded idempotently at startup, and stale password hashes are re-encoded to the documented demo passwords automatically. Login via `POST /api/auth/login` with `{username, password}`.",
+      "timestamp": 1785910210503
+    }
+  ],
+  "createdAt": "2026-08-05T06:08:41.304Z",
+  "updatedAt": "2026-08-05T06:10:10.503Z"
+}

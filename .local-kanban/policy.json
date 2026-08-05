@@ -1,0 +1,75 @@
+{
+  "allowedPaths": [
+    "src/**",
+    "package.json",
+    "README.md",
+    "tsconfig*.json",
+    "vite.config.ts",
+    ".local-kanban/**"
+  ],
+  "blockedPaths": [
+    ".env",
+    ".env.*",
+    "node_modules/**",
+    ".git/**",
+    "release/**",
+    "dist/**"
+  ],
+  "blockedPatterns": [
+    "*.pem",
+    "*.key",
+    "*.cert",
+    "*secret*",
+    "*password*",
+    "*credential*",
+    "*token*",
+    "id_rsa*"
+  ],
+  "allowedOperations": [
+    "read",
+    "write",
+    "create",
+    "delete"
+  ],
+  "maxFileSize": 10485760,
+  "requireConfirmation": [
+    "delete",
+    "overwrite_large_file"
+  ],
+  "shellCommands": {
+    "allowed": [
+      "npm",
+      "npx",
+      "node",
+      "git",
+      "tsc",
+      "vite",
+      "echo",
+      "cat",
+      "ls",
+      "dir"
+    ],
+    "blocked": [
+      "rm -rf /",
+      "format",
+      "sudo",
+      "curl | bash",
+      "wget | bash",
+      "del /f /s /q"
+    ],
+    "requireConfirmation": []
+  },
+  "limits": {
+    "maxStepsPerRun": 100,
+    "maxFilesPerRun": 50,
+    "maxDiffLinesPerRun": 5000,
+    "maxRuntimeMinutes": 30,
+    "allowedGlobs": [
+      "**/*"
+    ],
+    "blockedGlobs": [
+      "**/node_modules/**",
+      "**/.git/**"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "e4083569-d4f9-4c2f-9a61-f686a08f0d8c",
+  "title": "can you analyze this project",
+  "messages": [
+    {
+      "id": "905bf355-931d-4c09-9e52-cf7e5f8ad934",
+      "role": "user",
+      "content": "can you analyze this project",
+      "timestamp": 1785410612802
+    },
+    {
+      "id": "61f73cb1-21b9-4a64-96a8-ee8d68a645d2",
+      "role": "assistant",
+      "content": "📖 Reading: `C:\\Users\\mudas\\AI-Disaster-Management-System`\n📖 Reading: `C:\\Users\\mudas\\AI-Disaster-Management-System\\backend`\n📖 Reading: `C:\\Users\\mudas\\AI-Disaster-Management-System\\README.md`\n📖 Reading: `C:\\Users\\mudas\\AI-Disaster-Management-System\\frontend`\n🤖 Spawning agent...\n🤖 Spawning agent...Here's a full analysis of the **AI Disaster Management System**:\n\n## Overview\nA full-stack final-year engineering project for reporting and managing disaster events in real-time.\n\n## Tech Stack\n| Layer | Technology |\n|---|---|\n| **Backend** | Java 17, Spring Boot 3.2, Spring Security (JWT), Spring Data JPA, H2 (in-memory), Maven |\n| **Frontend** | React 18, Vite 5, React Router 6, Axios, Recharts, react-hot-toast |\n\n## Architecture\n```\nReact (5173) ──proxy──► Spring Boot (8080) ──► H2 (in-memory)\n```\n- Vite proxies `/api/*` to backend, avoiding CORS issues in dev\n\n## Features Implemented\n- **Auth**: JWT-based registration & login (with BCrypt)\n- **RBAC**: Two roles — `USER` and `ADMIN`\n- **Disaster CRUD**: Report, list, update status, delete\n- **Status lifecycle**: PENDING → ASSIGNED → IN_PROGRESS → RESOLVED\n- **Dashboards**: Stats cards, severity bar chart, status pie chart (Recharts)\n- **Admin panel**: Manage all disasters, update status inline, delete\n- **Search/filter**: Client-side filtering by type, location, status, reporter\n- **Responsive CSS**: Pure CSS with custom properties & breakpoints at 768px and 576px\n- **Seed data**: 2 users (admin/admin123, user/user123) and 4 sample disasters\n\n## Backend Structure (`backend/`)\n- **Entities**: `User`, `Disaster`, `Role` (enum), `DisasterStatus` (enum)\n- **DTOs**: 6 request/response classes with validation annotations\n- **Security**: Custom `JwtUtils`, `JwtAuthFilter`, `UserDetailsImpl`, `UserDetailsServiceImpl`\n- **Controllers**: `AuthController` (`/api/auth/*`), `DisasterController` (`/api/disasters/*`)\n- **Services**: `AuthService`, `DisasterService`\n- **Exceptions**: `ResourceNotFoundException` + `@RestControllerAdvice` for consistent error JSON\n- 5 API endpoints (register, login, create/list/update/delete disasters)\n\n## Frontend Structure (`frontend/`)\n- **Context**: `AuthContext` manages login/register/logout, persists JWT in localStorage\n- **Routing**: 7 routes with `ProtectedRoute` guard (auth check + admin-only)\n- **Pages**: Login, Register, UserDashboard, DisasterList, ReportDisaster, AdminDashboard\n- **API layer**: Axios instance with request interceptor (attaches JWT) & 401 response interceptor (redirects to login)\n- **State**: No Redux — each page fetches its own data independently\n\n## What's Missing (Planned Enhancements per README)\nAI damage prediction, AI resource optimization, SMS/email alerts, Google Maps, live tracking, weather API, satellite imagery, drone monitoring, hospital/shelter/volunteer management, cloud deployment.",
+      "timestamp": 1785410685107
+    }
+  ],
+  "createdAt": "2026-07-30T11:23:18.234Z",
+  "updatedAt": "2026-07-30T11:24:45.108Z"
+}

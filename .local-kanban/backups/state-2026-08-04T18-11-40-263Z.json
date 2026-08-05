@@ -1,0 +1,14 @@
+{
+  "mode": "manual",
+  "agentMode": "agent",
+  "isRunning": false,
+  "activeTaskId": null,
+  "lastUpdated": "2026-08-04T18:11:40.226Z",
+  "ralphMode": {
+    "enabled": false,
+    "strategy": "dependency",
+    "processedCount": 0,
+    "failedCount": 0
+  },
+  "lastTaskNumber": 343
+}
