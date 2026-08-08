@@ -552,22 +552,6 @@ Coverage highlights:
 - **Unit tests** (51): JWT utilities, rate limiting, account lockout, RBAC matrix,
   geospatial math (Haversine), AI scoring engine.
 
----
-
-## Future Enhancements
-
-- TensorFlow/ONNX/Python ML model integration
-- Twilio SMS integration
-- Spring Mail SMTP (real email)
-- OpenWeatherMap API (real weather)
-- Docker + Kubernetes deployment
-- Multi-language support (i18n)
-- Mobile app (React Native)
-- CI/CD pipeline (GitHub Actions)
-- OAuth2 / Social login
-- Advanced map clustering for large-scale disasters
-
----
 
 ## License
 
