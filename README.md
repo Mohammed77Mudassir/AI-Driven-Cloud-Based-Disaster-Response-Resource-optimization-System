@@ -54,7 +54,7 @@ A professional enterprise-grade Disaster Response Platform with AI-powered featu
 - Java 17
 - Spring Boot 3.2.0
 - Spring Security + JWT (jjwt 0.12.3, BCrypt)
-- Spring Data JPA + Hibernate
+- Spring Data JPA + Postgressql
 - Spring WebSocket (STOMP-compatible)
 - Spring Validation
 - H2 Database (in-memory, dev) / PostgreSQL (production, Flyway-managed)
