@@ -19,10 +19,14 @@ dist/
 .vite/
 *.tsbuildinfo
 
-# Environment
+# Environment / Secrets
+# Never commit .env files. Only .env.example is kept in the repository.
 .env
 .env.local
+.env.*
 .env.*.local
+*.env
+!.env.example
 
 # OS
 .DS_Store
@@ -33,3 +37,15 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+# Environment files
+.env
+*.env
+
+# Runtime files
+*.pid
+*.log
+*.log.err
+
+# Local Kanban / AI tool files
+.local-kanban/
+agent-runs/

@@ -6,13 +6,32 @@ import com.disaster.dto.routing.RoadClosure;
 import com.disaster.dto.routing.RoadClosureRequest;
 import com.disaster.dto.routing.RouteOption;
 import com.disaster.service.RouteOptimizationService;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
 import org.junit.jupiter.api.Test;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.test.util.ReflectionTestUtils;
+import org.springframework.web.client.ResourceAccessException;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 /**
  * Unit tests for the enterprise routing module. No network access: every test
@@ -28,12 +47,100 @@ class RouteOptimizationModuleTest {
         return provider;
     }
 
+    /** A client with no API key: the provider must fall back without any network call. */
+    private OpenRouteServiceClient unconfiguredClient() {
+        return new OpenRouteServiceClient((RestTemplate) null, "",
+                "https://api.openrouteservice.org/v2/directions", 1000, 0);
+    }
+
+    private OpenRouteServiceProvider orsProvider(OpenRouteServiceClient client) {
+        return new OpenRouteServiceProvider(client);
+    }
+
+    /** Service wired to the Haversine fallback with a deterministic cache TTL. */
+    private RouteOptimizationService haversineService() {
+        RouteOptimizationService service = new RouteOptimizationService(
+                orsProvider(unconfiguredClient()),
+                new GoogleMapsDirectionsProvider(),
+                new MapboxDirectionsProvider(),
+                haversineProvider(),
+                new InMemoryRoadClosureService());
+        ReflectionTestUtils.setField(service, "cacheTtlMinutes", 10L);
+        ReflectionTestUtils.invokeMethod(service, "initCache");
+        return service;
+    }
+
     private RouteRequest basicRequest() {
         RouteRequest request = new RouteRequest();
         request.setStart(new RouteRequest.Point(28.6139, 77.2090));
         request.setEnd(new RouteRequest.Point(19.0760, 72.8777));
         request.setMode("fastest");
         return request;
+    }
+
+    private Validator validator() {
+        return Validation.buildDefaultValidatorFactory().getValidator();
+    }
+
+    private Set<ConstraintViolation<RouteRequest>> violations(RouteRequest request) {
+        return validator().validate(request);
+    }
+
+    // ------------------------------------------------------------------
+    // Coordinate validation
+
+    @Test
+    void validIndianCoordinatesPassValidation() {
+        assertTrue(violations(basicRequest()).isEmpty(),
+                "Delhi -> Mumbai coordinates must be accepted");
+    }
+
+    @Test
+    void invalidStartLatitudeIsRejected() {
+        RouteRequest request = basicRequest();
+        request.setStart(new RouteRequest.Point(999, 77.2090));
+
+        Set<ConstraintViolation<RouteRequest>> violations = violations(request);
+        assertFalse(violations.isEmpty());
+        assertTrue(violations.stream()
+                .anyMatch(v -> v.getPropertyPath().toString().equals("start.latitude")),
+                "invalid start latitude must be reported");
+    }
+
+    @Test
+    void invalidEndLongitudeIsRejected() {
+        RouteRequest request = basicRequest();
+        request.setEnd(new RouteRequest.Point(19.0760, 999));
+
+        Set<ConstraintViolation<RouteRequest>> violations = violations(request);
+        assertFalse(violations.isEmpty());
+        assertTrue(violations.stream()
+                .anyMatch(v -> v.getPropertyPath().toString().equals("end.longitude")),
+                "invalid end longitude must be reported");
+    }
+
+    @Test
+    void invalidCoordinatesOnAnyMultiStopPointAreRejected() {
+        RouteRequest request = basicRequest();
+        request.setDestinations(List.of(
+                new RouteRequest.Point(12.9716, 77.5946),
+                new RouteRequest.Point(-120, 40.0)));
+
+        Set<ConstraintViolation<RouteRequest>> violations = violations(request);
+        assertFalse(violations.isEmpty());
+        assertTrue(violations.stream()
+                .anyMatch(v -> v.getPropertyPath().toString().equals("destinations[1].latitude")),
+                "invalid multi-stop point must be reported");
+    }
+
+    @Test
+    void boundaryCoordinatesAreAccepted() {
+        RouteRequest request = basicRequest();
+        request.setStart(new RouteRequest.Point(-90, -180));
+        request.setEnd(new RouteRequest.Point(90, 180));
+
+        assertTrue(violations(request).isEmpty(),
+                "boundary latitude/longitude values must be accepted");
     }
 
     private RouteContext context(RouteRequest request, List<RoadClosure> closures) {
@@ -110,8 +217,7 @@ class RouteOptimizationModuleTest {
 
     @Test
     void openRouteServiceProviderThrowsWhenNotConfigured() {
-        OpenRouteServiceProvider provider = new OpenRouteServiceProvider();
-        ReflectionTestUtils.setField(provider, "apiKey", "");
+        OpenRouteServiceProvider provider = orsProvider(unconfiguredClient());
 
         assertFalse(provider.isConfigured());
         assertThrows(RoutingUnavailableException.class,
@@ -120,13 +226,7 @@ class RouteOptimizationModuleTest {
 
     @Test
     void serviceFallsBackToHaversineWhenProviderNotConfigured() {
-        RouteOptimizationService service = new RouteOptimizationService(
-                new OpenRouteServiceProvider(),
-                new GoogleMapsDirectionsProvider(),
-                new MapboxDirectionsProvider(),
-                haversineProvider(),
-                new InMemoryRoadClosureService());
-        ReflectionTestUtils.invokeMethod(service, "initCache");
+        RouteOptimizationService service = haversineService();
 
         RouteResponse response = service.calculateRoute(basicRequest());
 
@@ -145,17 +245,68 @@ class RouteOptimizationModuleTest {
 
     @Test
     void serviceCachesIdenticalRequests() {
-        RouteOptimizationService service = new RouteOptimizationService(
-                new OpenRouteServiceProvider(),
-                new GoogleMapsDirectionsProvider(),
-                new MapboxDirectionsProvider(),
-                haversineProvider(),
-                new InMemoryRoadClosureService());
-        ReflectionTestUtils.invokeMethod(service, "initCache");
+        RouteOptimizationService service = haversineService();
 
         RouteResponse first = service.calculateRoute(basicRequest());
         RouteResponse second = service.calculateRoute(basicRequest());
         assertSame(first, second, "identical requests should hit the cache");
+    }
+
+    @Test
+    void responseIncludesStraightLineDistance() {
+        RouteOptimizationService service = haversineService();
+
+        RouteResponse response = service.calculateRoute(basicRequest());
+
+        assertTrue(response.getStraightLineDistanceKm() > 0,
+                "straight-line distance between Delhi and Mumbai must be positive");
+        assertTrue(response.getStraightLineDistanceKm() <= response.getTotalDistanceKm(),
+                "road distance should never be shorter than the straight-line distance");
+    }
+
+    @Test
+    void clientRetriesTransientFailuresAndSucceeds() {
+        RestTemplate rest = mock(RestTemplate.class);
+        ResponseEntity<String> ok = new ResponseEntity<>("{\"routes\":[]}", HttpStatus.OK);
+        when(rest.postForEntity(anyString(), any(HttpEntity.class), eq(String.class)))
+                .thenThrow(new ResourceAccessException("timeout"))
+                .thenThrow(new ResourceAccessException("timeout"))
+                .thenReturn(ok);
+
+        OpenRouteServiceClient client = new OpenRouteServiceClient(
+                rest, "test-key", "https://api.openrouteservice.org/v2/directions", 500, 2);
+        client.setRetryBackoffMs(0);
+
+        Map<String, Object> result = client.requestDirections("driving-car", new LinkedHashMap<>());
+
+        assertTrue(result.containsKey("routes"));
+        verify(rest, times(3)).postForEntity(anyString(), any(HttpEntity.class), eq(String.class));
+    }
+
+    @Test
+    void clientGivesUpAfterRetriesAreExhausted() {
+        RestTemplate rest = mock(RestTemplate.class);
+        when(rest.postForEntity(anyString(), any(HttpEntity.class), eq(String.class)))
+                .thenThrow(new ResourceAccessException("down"));
+
+        OpenRouteServiceClient client = new OpenRouteServiceClient(
+                rest, "test-key", "https://api.openrouteservice.org/v2/directions", 500, 2);
+        client.setRetryBackoffMs(0);
+
+        assertThrows(RoutingUnavailableException.class,
+                () -> client.requestDirections("driving-car", new LinkedHashMap<>()));
+        verify(rest, times(3)).postForEntity(anyString(), any(HttpEntity.class), eq(String.class));
+    }
+
+    @Test
+    void clientSkipsNetworkWhenKeyMissing() {
+        RestTemplate rest = mock(RestTemplate.class);
+        OpenRouteServiceClient client = unconfiguredClient();
+
+        assertFalse(client.isConfigured());
+        assertThrows(RoutingUnavailableException.class,
+                () -> client.requestDirections("driving-car", new LinkedHashMap<>()));
+        verify(rest, never()).postForEntity(anyString(), any(HttpEntity.class), eq(String.class));
     }
 
     @Test

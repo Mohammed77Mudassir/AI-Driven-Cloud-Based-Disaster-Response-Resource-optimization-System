@@ -5,6 +5,7 @@ import com.disaster.entity.*;
 import com.disaster.exception.ResourceNotFoundException;
 import com.disaster.repository.*;
 import com.disaster.config.WebSocketConfig;
+import com.disaster.geo.GeoUtils;
 import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -87,6 +88,13 @@ public class DisasterService {
         webSocketConfig.broadcastUpdate("DISASTER", DisasterResponse.fromEntity(disaster).redactReporterInfo());
     }
 
+    private void assertInsideIndia(double latitude, double longitude) {
+        if (!GeoUtils.isInsideIndia(latitude, longitude)) {
+            throw new IllegalArgumentException(
+                    "Coordinates (" + latitude + ", " + longitude + ") are outside the supported India region");
+        }
+    }
+
     // ------------------------------------------------------------------
     // Authenticated disaster reporting
     // ------------------------------------------------------------------
@@ -95,6 +103,7 @@ public class DisasterService {
     public DisasterResponse createDisaster(DisasterRequest request, Long userId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found"));
+        assertInsideIndia(request.getLatitude(), request.getLongitude());
         Disaster disaster = new Disaster();
         disaster.setDisasterType(request.getDisasterType());
         disaster.setDescription(request.getDescription());
@@ -315,8 +324,8 @@ public class DisasterService {
         dto.setDisasterType(disaster.getDisasterType());
         dto.setDescription(disaster.getDescription());
         dto.setSeverity(disaster.getSeverity());
-        dto.setStatus(disaster.getStatus().name());
-        dto.setPriority(disaster.getPriority().name());
+        dto.setStatus(disaster.getStatus() != null ? disaster.getStatus().name() : null);
+        dto.setPriority(disaster.getPriority() != null ? disaster.getPriority().name() : null);
         dto.setLocation(disaster.getLocation());
         dto.setLatitude(disaster.getLatitude());
         dto.setLongitude(disaster.getLongitude());
@@ -479,6 +488,8 @@ public class DisasterService {
 
     @Transactional
     public PublicReportDTO createPublicReport(PublicDisasterReportRequest request) {
+        assertInsideIndia(request.getLatitude() != null ? request.getLatitude() : 0.0,
+                request.getLongitude() != null ? request.getLongitude() : 0.0);
         Disaster disaster = new Disaster();
         disaster.setDisasterType(request.getDisasterType());
         disaster.setDescription(request.getDescription());

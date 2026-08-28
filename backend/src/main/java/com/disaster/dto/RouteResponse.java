@@ -14,6 +14,8 @@ import java.util.List;
  */
 public class RouteResponse {
     private double totalDistanceKm;
+    /** Great-circle (straight-line) distance between start and end, in km. */
+    private double straightLineDistanceKm;
     private double totalTimeMinutes;
     private List<double[]> route;
     private List<String> waypoints;
@@ -45,6 +47,8 @@ public class RouteResponse {
     public double getEstimatedTime() { return totalTimeMinutes; }
     public double getTotalDistanceKm() { return totalDistanceKm; }
     public void setTotalDistanceKm(double totalDistanceKm) { this.totalDistanceKm = totalDistanceKm; }
+    public double getStraightLineDistanceKm() { return straightLineDistanceKm; }
+    public void setStraightLineDistanceKm(double straightLineDistanceKm) { this.straightLineDistanceKm = straightLineDistanceKm; }
     public double getTotalTimeMinutes() { return totalTimeMinutes; }
     public void setTotalTimeMinutes(double totalTimeMinutes) { this.totalTimeMinutes = totalTimeMinutes; }
     public List<double[]> getRoute() { return route; }

@@ -6,6 +6,7 @@ import com.disaster.dto.routing.OptimizeResponse;
 import com.disaster.dto.routing.RoadClosure;
 import com.disaster.dto.routing.RouteOption;
 import com.disaster.dto.routing.TrafficInfo;
+import com.disaster.geo.GeoUtils;
 import com.disaster.service.routing.GoogleMapsDirectionsProvider;
 import com.disaster.service.routing.HaversineRouteProvider;
 import com.disaster.service.routing.MapboxDirectionsProvider;
@@ -81,6 +82,16 @@ public class RouteOptimizationService {
     @PostConstruct
     void initCache() {
         this.cache = new RouteCache(cacheTtlMinutes * 60_000L);
+        String name = activeProviderName == null ? "openrouteservice" : activeProviderName.trim().toLowerCase();
+        RouteProvider primary = providers.get(name);
+        if (primary == null) {
+            log.warn("[Routing] Unknown provider '{}'; Haversine offline engine is the fallback.", name);
+        } else if (!primary.isConfigured()) {
+            log.warn("[Routing] {} selected but NOT configured (missing API key); will fall back to Haversine.",
+                    primary.getName());
+        } else {
+            log.info("[Routing] {} provider ACTIVE.", primary.getName());
+        }
     }
 
     // ------------------------------------------------------------------
@@ -110,8 +121,9 @@ public class RouteOptimizationService {
             }
             options = provider.calculateRoutes(context);
             providerName = provider.getName();
+            log.info("[Routing] Using {} provider", providerName);
         } catch (RoutingUnavailableException ex) {
-            log.warn("Routing provider '{}' unavailable ({}); using Haversine fallback",
+            log.warn("[Routing] {} unavailable, using Haversine fallback ({})",
                     provider.getName(), ex.getMessage());
             provider = haversineRouteProvider;
             options = haversineRouteProvider.calculateRoutes(context);
@@ -220,6 +232,9 @@ public class RouteOptimizationService {
         response.setSelectedRoute(selected);
         response.setRoute(selected.getGeometry());
         response.setTotalDistanceKm(selected.getDistanceKm());
+        response.setStraightLineDistanceKm(round2(
+                GeoUtils.distanceKm(request.getStartLatitude(), request.getStartLongitude(),
+                        request.getEndLatitude(), request.getEndLongitude())));
         response.setTotalTimeMinutes(selected.getTrafficTimeMinutes());
         response.setTotalTurns(selected.getTurnCount());
         response.setAverageSpeedKmph(selected.getAverageSpeedKmph());
@@ -269,6 +284,10 @@ public class RouteOptimizationService {
             traffic.setMessage("Standard routing in use - real-time traffic data is not available for this provider");
         }
         return traffic;
+    }
+
+    private double round2(double v) {
+        return Math.round(v * 100.0) / 100.0;
     }
 
     private String cacheKey(RouteRequest request, List<RouteRequest.Point> ordered, List<RoadClosure> closures) {

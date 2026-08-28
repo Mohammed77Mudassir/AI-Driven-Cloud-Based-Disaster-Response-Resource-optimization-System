@@ -2,19 +2,10 @@ package com.disaster.service.routing;
 
 import com.disaster.dto.routing.RoadClosure;
 import com.disaster.dto.routing.RouteOption;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.disaster.geo.GeoUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClientException;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -29,6 +20,10 @@ import java.util.Set;
  * Attempts to avoid active road closures through the {@code avoid_polygons}
  * option; if the provider rejects that, it transparently retries without it.
  *
+ * <p>All transport concerns (timeouts, retries, the API key header) live in
+ * {@link OpenRouteServiceClient}; this class only builds the request body and
+ * parses the response into {@link RouteOption}s.</p>
+ *
  * <p>OpenRouteService does not expose real-time traffic, so this provider
  * reports traffic as unavailable; the response clearly marks standard routing
  * in that case.</p>
@@ -41,17 +36,12 @@ public class OpenRouteServiceProvider implements RouteProvider {
     private static final Set<String> ALLOWED_PROFILES = Set.of(
             "driving-car", "driving-hgv", "cycling-regular", "foot-walking");
 
-    @Value("${app.routing.openrouteservice.api-key:}")
-    private String apiKey;
-
-    @Value("${app.routing.openrouteservice.url:https://api.openrouteservice.org/v2/directions}")
-    private String baseUrl;
-
-    @Value("${app.routing.openrouteservice.timeout-ms:8000}")
-    private int timeoutMs;
-
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final OpenRouteServiceClient client;
     private final PolylineCodec polylineCodec = new PolylineCodec();
+
+    public OpenRouteServiceProvider(OpenRouteServiceClient client) {
+        this.client = client;
+    }
 
     @Override
     public String getName() {
@@ -60,7 +50,7 @@ public class OpenRouteServiceProvider implements RouteProvider {
 
     @Override
     public boolean isConfigured() {
-        return apiKey != null && !apiKey.isBlank();
+        return client.isConfigured();
     }
 
     @Override
@@ -81,7 +71,7 @@ public class OpenRouteServiceProvider implements RouteProvider {
         }
 
         Map<String, Object> baseBody = buildBody(context);
-        String url = directionsUrl(resolveProfile(context.getRequest().getProfile()));
+        String profile = resolveProfile(context.getRequest().getProfile());
         boolean avoidClosures = context.getRequest().isAvoidRoadClosures()
                 && !context.getClosures().isEmpty();
 
@@ -92,7 +82,7 @@ public class OpenRouteServiceProvider implements RouteProvider {
                 Map<String, Object> withAvoidance = new LinkedHashMap<>(baseBody);
                 withAvoidance.put("avoid_polygons", avoidPolygons);
                 try {
-                    response = send(url, withAvoidance);
+                    response = client.requestDirections(profile, withAvoidance);
                     log.info("Route calculated with {} avoidance polygon(s)", context.getClosures().size());
                 } catch (RoutingUnavailableException ex) {
                     log.warn("OpenRouteService rejected avoid_polygons ({}); retrying without it", ex.getMessage());
@@ -101,11 +91,7 @@ public class OpenRouteServiceProvider implements RouteProvider {
         }
 
         if (response == null) {
-            try {
-                response = send(url, baseBody);
-            } catch (RestClientException ex) {
-                throw new RoutingUnavailableException("OpenRouteService request failed: " + ex.getMessage(), ex);
-            }
+            response = client.requestDirections(profile, baseBody);
         }
 
         if (response == null || response.get("routes") == null) {
@@ -170,12 +156,6 @@ public class OpenRouteServiceProvider implements RouteProvider {
         return profile;
     }
 
-    /** ORS v2 expects the transport profile in the URL path. */
-    private String directionsUrl(String profile) {
-        String url = baseUrl.endsWith("/") ? baseUrl.substring(0, baseUrl.length() - 1) : baseUrl;
-        return url + "/" + profile;
-    }
-
     /** Polygon around each active closure so ORS can route around them. */
     private Map<String, Object> buildAvoidPolygons(RouteContext context) {
         List<List<List<List<Double>>>> polygons = new ArrayList<>();
@@ -207,40 +187,6 @@ public class OpenRouteServiceProvider implements RouteProvider {
         }
         ring.add(polygon);
         return ring;
-    }
-
-    @SuppressWarnings("unchecked")
-    private Map<String, Object> send(String url, Map<String, Object> body) {
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.set("Authorization", apiKey);
-
-        HttpEntity<String> entity = new HttpEntity<>(toJson(body), headers);
-        RestTemplate rest = new RestTemplate(buildRequestFactory());
-        ResponseEntity<String> raw = rest.postForEntity(url, entity, String.class);
-        if (!raw.getStatusCode().is2xxSuccessful()) {
-            throw new RoutingUnavailableException("OpenRouteService returned HTTP " + raw.getStatusCode());
-        }
-        try {
-            return objectMapper.readValue(raw.getBody(), Map.class);
-        } catch (Exception ex) {
-            throw new RoutingUnavailableException("Failed to parse OpenRouteService response", ex);
-        }
-    }
-
-    private SimpleClientHttpRequestFactory buildRequestFactory() {
-        SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(timeoutMs);
-        factory.setReadTimeout(timeoutMs);
-        return factory;
-    }
-
-    private String toJson(Map<String, Object> body) {
-        try {
-            return objectMapper.writeValueAsString(body);
-        } catch (Exception ex) {
-            throw new RoutingUnavailableException("Failed to build route request body", ex);
-        }
     }
 
     @SuppressWarnings("unchecked")

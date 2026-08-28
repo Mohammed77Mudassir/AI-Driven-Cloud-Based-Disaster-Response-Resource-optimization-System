@@ -98,4 +98,61 @@ class GeoUtilsTest {
         double eta = GeoUtils.etaMinutes(40.0, 0.0); // default 40 km/h
         assertEquals(60.0, eta, 1e-9);
     }
+
+    @Test
+    void validIndianCitiesAreInsideIndia() {
+        assertTrue(GeoUtils.isInsideIndia(12.9716, 77.5946)); // Bengaluru
+        assertTrue(GeoUtils.isInsideIndia(19.0760, 72.8777)); // Mumbai
+        assertTrue(GeoUtils.isInsideIndia(28.6139, 77.2090)); // Delhi
+        assertTrue(GeoUtils.isInsideIndia(13.0827, 80.2707)); // Chennai
+    }
+
+    @Test
+    void outOfBoundsPointsInNeighboringCountriesAreNotInsideIndia() {
+        assertFalse(GeoUtils.isInsideIndia(24.86, 67.01)); // Karachi, Pakistan (west of box)
+        assertFalse(GeoUtils.isInsideIndia(16.69, 98.51)); // eastern Myanmar (east of box)
+        assertFalse(GeoUtils.isInsideIndia(6.03, 80.21));  // Galle, Sri Lanka (south of box)
+        assertFalse(GeoUtils.isInsideIndia(37.2, 82.0));   // Tibet, north of Nepal (north of box)
+    }
+
+    @Test
+    void northernBoundaryIsInsideIndia() {
+        assertTrue(GeoUtils.isInsideIndia(37.1, 80.0));
+        assertFalse(GeoUtils.isInsideIndia(37.1001, 80.0));
+    }
+
+    @Test
+    void southernBoundaryIsInsideIndia() {
+        assertTrue(GeoUtils.isInsideIndia(6.7, 80.0));
+        assertFalse(GeoUtils.isInsideIndia(6.6999, 80.0));
+    }
+
+    @Test
+    void easternBoundaryIsInsideIndia() {
+        assertTrue(GeoUtils.isInsideIndia(20.0, 97.4));
+        assertFalse(GeoUtils.isInsideIndia(20.0, 97.4001));
+    }
+
+    @Test
+    void westernBoundaryIsInsideIndia() {
+        assertTrue(GeoUtils.isInsideIndia(20.0, 68.1));
+        assertFalse(GeoUtils.isInsideIndia(20.0, 68.0999));
+    }
+
+    @Test
+    void invalidLatitudeIsNotInsideIndia() {
+        assertFalse(GeoUtils.isInsideIndia(91.0, 80.0));
+        assertFalse(GeoUtils.isInsideIndia(-91.0, 80.0));
+    }
+
+    @Test
+    void invalidLongitudeIsNotInsideIndia() {
+        assertFalse(GeoUtils.isInsideIndia(20.0, 181.0));
+        assertFalse(GeoUtils.isInsideIndia(20.0, -181.0));
+    }
+
+    @Test
+    void originIsNotInsideIndia() {
+        assertFalse(GeoUtils.isInsideIndia(0.0, 0.0));
+    }
 }

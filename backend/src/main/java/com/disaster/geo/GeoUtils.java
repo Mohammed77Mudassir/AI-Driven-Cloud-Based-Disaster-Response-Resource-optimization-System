@@ -10,7 +10,24 @@ public final class GeoUtils {
     private static final double EARTH_RADIUS_KM = 6371.0;
     private static final double DEFAULT_SPEED_KMPH = 40.0;
 
+    private static final double INDIA_MIN_LATITUDE = 6.7;
+    private static final double INDIA_MAX_LATITUDE = 37.1;
+    private static final double INDIA_MIN_LONGITUDE = 68.1;
+    private static final double INDIA_MAX_LONGITUDE = 97.4;
+
     private GeoUtils() {}
+
+    /**
+     * Returns true when the given coordinate lies inside the project's India
+     * bounding box. Shared by the NASA EONET and USGS earthquake feeds so both
+     * external sources use identical India filtering.
+     */
+    public static boolean isInsideIndia(double latitude, double longitude) {
+        return latitude >= INDIA_MIN_LATITUDE
+                && latitude <= INDIA_MAX_LATITUDE
+                && longitude >= INDIA_MIN_LONGITUDE
+                && longitude <= INDIA_MAX_LONGITUDE;
+    }
 
     public static double distanceKm(double lat1, double lon1, double lat2, double lon2) {
         double dLat = Math.toRadians(lat2 - lat1);

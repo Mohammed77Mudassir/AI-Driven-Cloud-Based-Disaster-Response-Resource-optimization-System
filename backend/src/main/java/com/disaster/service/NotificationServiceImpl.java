@@ -79,4 +79,26 @@ public class NotificationServiceImpl implements NotificationService {
                 notificationRepository.save(n);
             });
     }
+
+    @Override
+    @Transactional
+    public void notifyAllUsers(String title, String message, String type) {
+        List<User> users = userRepository.findByActiveTrue();
+        if (users.isEmpty()) return;
+        NotificationDTO broadcast = null;
+        for (User user : users) {
+            Notification n = new Notification();
+            n.setTitle(title);
+            n.setMessage(message);
+            n.setType(NotificationType.valueOf(type));
+            n.setRead(false);
+            n.setUser(user);
+            n.setCreatedAt(LocalDateTime.now());
+            NotificationDTO saved = NotificationDTO.fromEntity(notificationRepository.save(n));
+            if (broadcast == null) broadcast = saved;
+        }
+        if (broadcast != null) {
+            webSocketConfig.broadcastUpdate("NOTIFICATION", broadcast);
+        }
+    }
 }

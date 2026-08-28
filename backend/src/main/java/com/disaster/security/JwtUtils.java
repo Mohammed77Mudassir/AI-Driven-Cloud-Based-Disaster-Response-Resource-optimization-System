@@ -2,6 +2,8 @@ package com.disaster.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -12,12 +14,23 @@ import java.util.Date;
 @Component
 public class JwtUtils {
 
+    private static final Logger log = LoggerFactory.getLogger(JwtUtils.class);
+
+    /** Matches the demo default in application.properties; used only when JWT_SECRET is blank. */
+    private static final String DEMO_SECRET =
+            "404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970337336763979244226452948404D635166546A576E5A7234753778214125442A47";
+
     private final SecretKey key;
     private final long expirationMs;
 
-    public JwtUtils(@Value("${app.jwt.secret}") String secret,
+    public JwtUtils(@Value("${app.jwt.secret:}") String secret,
                     @Value("${app.jwt.expiration-ms}") long expirationMs) {
-        byte[] keyBytes = Base64.getDecoder().decode(secret);
+        String resolved = (secret == null || secret.isBlank()) ? DEMO_SECRET : secret;
+        if (resolved.equals(DEMO_SECRET)) {
+            log.warn("JWT_SECRET is not set; using the built-in demo signing secret. "
+                    + "Set a strong JWT_SECRET (at least 32 bytes) in any non-local deployment.");
+        }
+        byte[] keyBytes = Base64.getDecoder().decode(resolved);
         if (keyBytes.length < 32) {
             throw new IllegalStateException(
                     "app.jwt.secret must decode to at least 32 bytes (256 bits). "

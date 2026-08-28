@@ -22,14 +22,15 @@ public class WebSocketConfig implements WebSocketConfigurer {
     private static final Logger log = LoggerFactory.getLogger(WebSocketConfig.class);
 
     private final CopyOnWriteArrayList<WebSocketSession> sessions = new CopyOnWriteArrayList<>();
-    private final ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper;
     private final WebSocketSessionService sessionService;
 
     @Value("${app.cors.allowed-origins:http://localhost:5173}")
     private String allowedOrigins;
 
-    public WebSocketConfig(WebSocketSessionService sessionService) {
+    public WebSocketConfig(WebSocketSessionService sessionService, ObjectMapper objectMapper) {
         this.sessionService = sessionService;
+        this.objectMapper = objectMapper;
     }
 
     @Override
