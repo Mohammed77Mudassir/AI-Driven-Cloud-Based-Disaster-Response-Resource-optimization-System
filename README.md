@@ -57,7 +57,7 @@ A professional enterprise-grade Disaster Response Platform with AI-powered featu
 - Spring Data JPA + Postgressql
 - Spring WebSocket (STOMP-compatible)
 - Spring Validation
-- H2 Database (in-memory, dev) / PostgreSQL (production, Flyway-managed)
+- PostgreSQL (production, Flyway-managed)
 - OpenCSV 5.9 for exports
 - Maven
 
