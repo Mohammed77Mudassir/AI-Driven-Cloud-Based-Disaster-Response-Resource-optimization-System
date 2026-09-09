@@ -44,7 +44,7 @@ A professional enterprise-grade Disaster Response Platform with AI-powered featu
 - Export Reports: CSV, TXT/PDF
 - Audit Logging with complete activity trail
 - Status Timeline per disaster
-- H2 in-memory database with comprehensive seed data (dev); PostgreSQL profile for production
+- PostgreSQL profile for production
 
 ---
 
