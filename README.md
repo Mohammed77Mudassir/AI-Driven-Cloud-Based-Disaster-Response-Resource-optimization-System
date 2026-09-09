@@ -229,7 +229,6 @@ mvn spring-boot:run
 
 Backend starts on `http://localhost:8080`.
 
-> The H2 web console is **disabled by default** for production safety. To enable it in
 > local development, start with the dev profile:
 > `mvn spring-boot:run -Dspring-boot.run.profiles=dev`, then open
 > `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:disasterdb`).
